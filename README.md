@@ -113,6 +113,7 @@ All data is stored in MongoDB in one collection
 - [Hover.css](https://ianlunn.github.io/Hover/) used to add button hover effect , opens in same tab, press back to return
 - [Tiny PNG](https://tinypng.com/) used to compress some images used, opens in same tab, press back to return
 - [Heroku](https://dashboard.heroku.com/apps) used to deploy project, opens in same tab, press back to return
+- [Flaticon.com](http://www.freepik.com) used for spray can favicon, opens in same tab, press back to return
 
 ### [Top of page](#top)
 ---
