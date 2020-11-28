@@ -1,3 +1,4 @@
+<a name="top"></a>
 <div align="center">
 <img src="" width="800">
 </div>
@@ -5,7 +6,6 @@
 ---
 
 # Street Art @ Home 
-<a name="top"></a>
 
 ---
 ## Links
