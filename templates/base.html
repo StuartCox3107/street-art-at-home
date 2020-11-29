@@ -53,17 +53,17 @@
     <header class="container-fluid fixed-top">
       <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <!--logo-->
-        <div class="col-12 col-lg-4 my-auto">
-          <a href="{% url 'home' %}" class=""
+        <nav class="col-12 col-lg-4 my-auto">
+          <a href="{% url 'home' %}" class="navbar-brand"
             ><img
               class="img-fluid"
               src="{{ MEDIA_URL }}logo.png"
               alt="company logo"
           /></a>
-        </div>
+        </nav>
         <!--nav-->
         <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
-          <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+          <ul class="list-inline list-unstyled text-center my-0">
             <li class="list-inline-item">
               <a href="">SHOP</a>
             </li>
@@ -76,7 +76,7 @@
           </ul>
         </div>
         <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
-          <ul class="list-inline list-unstyled text-center my-0">
+          <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <!--li for about section-->
             <li class="list-inline-item">About</li>
             <!--li for shopping basket-->
@@ -88,8 +88,11 @@
                 <div class="text-center">
                   <div><i class="fas fa-shopping-basket"></i></div>
                   <p class="my-0">
-                    {% if grand_total %} ${{ grand_total|floatformat:2 }} {%
-                    else %} $0.00 {% endif %}
+                    {% if grand_total %} 
+                        £{{ grand_total|floatformat:2 }} 
+                    {% else %}
+                        £0.00
+                    {% endif %}
                   </p>
                 </div>
               </a>
