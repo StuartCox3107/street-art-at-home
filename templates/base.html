@@ -23,6 +23,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
 
     {% endblock %} {% block extra_css %} {% endblock %} {% block corejs %}
     <script
@@ -64,13 +69,13 @@
         <!--nav-->
         <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
           <ul class="list-inline list-unstyled text-center my-0">
-            <li class="list-inline-item">
+            <li class="list-inline-item text-center hvr-underline-from-center">
               <a href="">SHOP</a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item text-center hvr-underline-from-center">
               <a href="">New In</a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item text-center hvr-underline-from-center">
               <a href="">Blog</a>
             </li>
           </ul>
@@ -78,9 +83,9 @@
         <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
           <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <!--li for about section-->
-            <li class="list-inline-item text-center">About<br>Us</li>
+            <li class="list-inline-item text-center hvr-underline-from-center">About<br>Us</li>
             <!--li for shopping basket-->
-            <li class="list-inline-item">
+            <li class="list-inline-item hvr-underline-from-center">
               <a
                 class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                 href=""
@@ -98,7 +103,7 @@
               </a>
             </li>
             <!--li for account admin-->
-            <li class="list-inline-item dropdown">
+            <li class="list-inline-item dropdown hvr-underline-from-center">
               <a
                 class="text-black nav-link"
                 href="#"

@@ -19,10 +19,6 @@ body {
     width: 1.5rem;
 }
 
-.main-logo-link {
-    width: fit-content;
-}
-
 .shop-now-button {
     background: black;
     color: white;
@@ -51,6 +47,7 @@ body {
 .border-black {
     border: 1px solid black !important;
 }
+
 
 /* -------------------------------- Media Queries */
 
