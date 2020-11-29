@@ -101,7 +101,6 @@ All data is stored in MongoDB in one collection
 - HTML, CSS, Javascript & Python languages
 - [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
 - [Font Meme](https://fontmeme.com/) for logo font
-- [Favicon.io](https://favicon.io/) to generate favicon,opens in same tab, press back to return
 - [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
 - [GitHub](https://github.com/) To host the repositories for this project, opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
