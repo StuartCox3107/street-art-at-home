@@ -82,16 +82,16 @@
               <a href="">Blog</a>
             </li>
             <!--li for about section-->
-            <li class="list-inline-item text-center hvr-underline-from-center">About<br>Us</li>
+            <li class="list-inline-item text-center hvr-underline-from-center"><a href="">About<br>Us</a></li>
             <!--li for shopping basket-->
             <li class="list-inline-item hvr-underline-from-center">
               <a
-                class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom"
                 href=""
               >
                 <div class="text-center">
                   <div><i class="fas fa-shopping-basket"></i></div>
-                  <p class="my-0">
+                  <p class="my-0 align-bottom">
                     {% if grand_total %} 
                         £{{ grand_total|floatformat:2 }} 
                     {% else %}
