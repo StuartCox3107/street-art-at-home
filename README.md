@@ -100,8 +100,8 @@ All data is stored in MongoDB in one collection
 
 - HTML, CSS, Javascript & Python languages
 - [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
-- [Font Meme](https://fontmeme.com/) for logo font
-- [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
+- [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return, opens in same tab, press back to return
+- [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return, opens in same tab, press back to return
 - [GitHub](https://github.com/) To host the repositories for this project, opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
 - [Undraw](https://undraw.co/illustrations) used for cartoon images on site, opens in same tab, press back to return
@@ -114,6 +114,7 @@ All data is stored in MongoDB in one collection
 - [Tiny PNG](https://tinypng.com/) used to compress some images used, opens in same tab, press back to return
 - [Heroku](https://dashboard.heroku.com/apps) used to deploy project, opens in same tab, press back to return
 - [Flaticon.com](http://www.freepik.com) used for spray can favicon, opens in same tab, press back to return
+- [Dreamtimes.com](https://www.dreamstime.com/) used for graffiti man image, opens in same tab, press back to return
 
 ### [Top of page](#top)
 ---
