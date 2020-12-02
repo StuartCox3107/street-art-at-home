@@ -48,7 +48,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | View individual products | View detail on individual products |
 | Shopper | Check out interesting new street art | Have access to cutting edge |
 | Shopper | View my shopping bag | Know what I am spending |
-| ---|
+| |
 | Site user | Easily register an account | Hold an account |
 | Site user | Easily login or out | Access and use personal information |
 
