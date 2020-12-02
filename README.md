@@ -49,8 +49,14 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | Check out interesting new street art | Have access to cutting edge |
 | Shopper | View my shopping bag | Know what I am spending |
 | |
-| Site user | Easily register an account | Hold an account |
+| Site user | Easily register an account | Hold an account and view profile |
 | Site user | Easily login or out | Access and use personal information |
+| Site user | Receive a post registration email | Know my registration has worked |
+| Site user | Have a personal profile | View order and payment history |
+|    |
+| Shopper | Sort the list of available products | Narrow down the range to desired products |
+| Shopper | Search for a product by name or description | Find a specific product |
+| Shopper | Easily see what I have searched for | Make a decision on whether this is a product I want | 
 
 
 ### [Top of page](#top)
