@@ -42,7 +42,11 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ## User Stories 
 
-
+| As a...      | I want to be able to...  | So that I can...        |
+| ------------ | -------------------------| ----------------------- |
+| Shopper      | View products            | Choose ones to buy      |
+| Shopper      | View individual products | View detail on products |
+| 
 
 ### [Top of page](#top)
 ---
