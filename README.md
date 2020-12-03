@@ -75,9 +75,16 @@ Click [here]() for the site plan, opens in same tab, click back if needed
 
 ### Landing page
 
-[Desktop: Wireframe](wireframes/home_desktop)
+[Desktop Wireframe](wireframes/home_desktop.png)
+[Mobile Wireframe]
 
-Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site does.
+Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site does. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, an "About Us" area, the shopping basket and user admin area. Below this and on all pages will be a search bar,
+
+### All products
+
+[Desktop wireframe](wireframes/all_products_desktop.png)
+
+A page showing every produc that can be purchased, a filter and a "back to top icon".
 
 ### [Top of page](#top)
 ---
