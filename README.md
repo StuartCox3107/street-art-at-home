@@ -89,7 +89,7 @@ A page showing every produc that can be purchased, a filter and a "back to top i
 
 ### One product
 
-[Desktop wireframe](wireframes/one_product_desk.png)
+[Desktop wireframe](wireframes/one_product_desktop.png)
 [Mobile Wireframe]()
 
 A page showing an individual product chosen with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
