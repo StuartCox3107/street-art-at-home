@@ -67,13 +67,17 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ### Site plan
 
-Click [Here]() for the site plan, opens in same tab, click back if needed
+Click [here]() for the site plan, opens in same tab, click back if needed
 
 <a name="features"></a>
 
 ## Features & Wireframes
 
+### Landing page
 
+[Desktop: Wireframe](wireframes/home_desktop)
+
+Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site does.
 
 ### [Top of page](#top)
 ---
@@ -93,7 +97,7 @@ Colours are designed to be largely soft and pastel like but with the option for 
 
 ## Database features/design
 
-All data is store
+All data is stored
 
 
 
