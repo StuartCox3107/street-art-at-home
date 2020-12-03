@@ -67,12 +67,11 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ### Site plan
 
-Click [Here](f) for the site plan, opens in same tab, click back if needed
+Click [Here]() for the site plan, opens in same tab, click back if needed
 
 <a name="features"></a>
 
 ## Features & Wireframes
-
 
 
 
@@ -82,9 +81,7 @@ Click [Here](f) for the site plan, opens in same tab, click back if needed
 
 ## Theme & typography
 
-
-
-Colours are designed to be soft and pastel like, the below colour palette was generated using [coolors](https://coolors.co/)
+Colours are designed to be largely soft and pastel like but with the option for the addition of a bold pink colour where needed, and a dark grey to give emphasis, the below colour palette was generated using [coolors](https://coolors.co/)
 
 <div align="center">
 <img src="media/projectcolours.png" width="500">
@@ -96,7 +93,7 @@ Colours are designed to be soft and pastel like, the below colour palette was ge
 
 ## Database features/design
 
-All data is stored in MongoDB in one collection
+All data is store
 
 
 
@@ -115,16 +112,13 @@ All data is stored in MongoDB in one collection
 
 - HTML, CSS, Javascript & Python languages
 - [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
-- [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return, opens in same tab, press back to return
-- [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return, opens in same tab, press back to return
+- [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return
+- [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
 - [GitHub](https://github.com/) To host the repositories for this project, opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
-- [Undraw](https://undraw.co/illustrations) used for cartoon images on site, opens in same tab, press back to return
-- [Materialize](https://materializecss.com/) framework used for site layout & design
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) as a micro framework, opens in same tab, press back to return
-- [MongoDB](https://www.mongodb.com/) as the database store, opens in same tab, press back to return
+- [Django](https://www.djangoproject.com/) as the database storemain framework used, opens in same tab, press back to return
 - [Coolors](https://coolors.co/) used for colour palette, opens in same tab, press back to return
-- [Material Design](https://material.io/resources/icons/?style=baseline) used for icons, opens in same tab, press back to return
+- [Bootstrap](https://getbootstrap.com/) front-end framework used, opens in same tab, press back to return
 - [Hover.css](https://ianlunn.github.io/Hover/) used to add button hover effect , opens in same tab, press back to return
 - [Tiny PNG](https://tinypng.com/) used to compress some images used, opens in same tab, press back to return
 - [Heroku](https://dashboard.heroku.com/apps) used to deploy project, opens in same tab, press back to return
