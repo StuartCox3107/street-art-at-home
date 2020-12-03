@@ -94,6 +94,15 @@ A page showing every produc that can be purchased, a filter and a "back to top i
 
 A page showing an individual product chosen with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
 
+### Signup
+
+[Desktop wireframe](wireframes/Signup_desktop.png)
+[Mobile Wireframe]()
+
+A page giving the user the ability to be able to create an account using their personal detail with buttons to sign-in/submit or navigate to the login page if they realise that they do actually have an account already.
+
+
+
 ### [Top of page](#top)
 ---
 <a name="theme"></a>
