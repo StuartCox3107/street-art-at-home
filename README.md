@@ -42,7 +42,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ## User Stories 
 
-| As a... | I want to be able to... | So that I can... |
+| As a | I want to be able to | So that I can |
 | --- | --- | --- |
 | Shopper | View products | Choose ones to buy |
 | Shopper | View individual products | View detail on individual products |
@@ -87,7 +87,7 @@ Click [Here](f) for the site plan, opens in same tab, click back if needed
 Colours are designed to be soft and pastel like, the below colour palette was generated using [coolors](https://coolors.co/)
 
 <div align="center">
-<img src="" width="500">
+<img src="media/projectcolours.png" width="500">
 </div>
 
 ### [Top of page](#top)
