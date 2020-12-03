@@ -94,14 +94,48 @@ A page showing every produc that can be purchased, a filter and a "back to top i
 
 A page showing an individual product chosen with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
 
-### Signup
+### Sign up
 
 [Desktop wireframe](wireframes/Signup_desktop.png)
 [Mobile Wireframe]()
 
 A page giving the user the ability to be able to create an account using their personal detail with buttons to sign-in/submit or navigate to the login page if they realise that they do actually have an account already.
 
+### Sign in
 
+[Desktop wireframe](wireframes/Login_desktop.png)
+[Mobile Wireframe]()
+
+A simple page giving the user the ability to enter their username and password that they have to login to their account. Home and Sign-in (process) buttons to be present.
+
+### Profile
+
+[Desktop wireframe](wireframes/Myprofile_desktop.png)
+[Mobile Wireframe]()
+
+A simple page giving the user the ability to view their profile details and update if required.
+
+### Basket
+
+[Desktop wireframe](wireframes/Basket_desktop.png)
+[Mobile Wireframe]()
+
+A page showing an image of all items ordered as well as a breakdown of item price and total price. Buttons giving the abaility to continue shopping or to go to the checkout app if the user has finished shopping.
+
+### Checkout
+
+TO DO!!!!!!! CHECK WIREFRAME UPLOADED
+
+### Blog
+
+[Desktop wireframe](wireframes/Blog_desktop.png)
+[Mobile Wireframe]()
+
+A simple page with images and detail of latest works added as well as a button to return the user home.
+
+### About us
+
+A page giving details about the company history, ethics and reason for existence.
 
 ### [Top of page](#top)
 ---
