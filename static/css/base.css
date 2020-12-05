@@ -91,3 +91,10 @@ a {
         padding-top: 164px;
     }
 }
+
+/* shrinks navbar links on smaller screen (pre-mobile) to prevent stacking */
+@media (max-width: 1200px) {
+  .hvr-underline-from-center a {
+    font-size: 1em;
+  }
+}
