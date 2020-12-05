@@ -56,6 +56,10 @@ body {
     text-decoration: none;
 }
 
+.searchbox {
+    padding-top: 30px;
+}
+
 
 
 /* -------------------------------- Media Queries */
