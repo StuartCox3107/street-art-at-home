@@ -10,14 +10,30 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100 indexintro">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 py-3">
-                    HIGH QUALITY IMAGES OF THE BEST STREET ART FROM AROUND THE WORLD PRINTED ON CANVAS</br></br>SHOP NOW
-                </a>
-            </div>
-        </div>
-    </div>
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col">
+                <hr>
+                    <h2 class="logo-font mb-4">Shopping Bag</h2>
+                    <hr></div>
+                </div>
 
-{% endblock %}
+                <div class="row">
+                    <div class="col">
+                        {% if bag_items %}
+                            <div class="table-responsive rounded"></div>
+                        {% else %}
+                            <p class="lead mb-5">Your bag is empty.</p>
+                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-left"></i>
+                                </span>
+                                <span class="text-uppercase">Keep Shopping</span>
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+        {% endblock %}

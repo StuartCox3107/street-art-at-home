@@ -62,7 +62,7 @@
 
                         <!--li for shopping basket-->
                         <li class="list-inline-item hvr-underline-from-center">
-                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="">
+                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
                                 <div class="text-center">
                                     <div>
                                         <i class="fas fa-shopping-basket"></i>
