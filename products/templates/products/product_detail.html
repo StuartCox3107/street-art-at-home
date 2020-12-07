@@ -29,9 +29,8 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">60cm x 60cm: £{{ product.price_s }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">90cm x 90cm: £{{ product.price_m }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">120cm x 120cm: {{ product.price_l }}</p>
+                    </br>
+                    <p class="lead mb-0 text-left font-weight-bold">120cm x 120cm: £{{ product.price_l }}</p>
                     
                     <p class="mt-3">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
@@ -40,8 +39,7 @@
                             <div class="col-12">
                                 <p class="mt-3"><strong>Quantity:</strong></p>
                                 <div class="form-group w-50">
-                                    <div class="input-group">
-                                        <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                    <div class="input-group">                               <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">                    
                                     </div>
                                 </div>
                             </div>
