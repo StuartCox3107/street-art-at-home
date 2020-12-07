@@ -118,8 +118,8 @@ body {
     }
 }
 
-/* shrinks navbar links on smaller screen (pre-mobile) to prevent stacking */
-@media (max-width: 1200px) {
+/* shrinks navbar links on smaller screen to prevent stacking */
+@media (max-width: 1340px) {
   .hvr-underline-from-center a {
     font-size: 1em;
   }
