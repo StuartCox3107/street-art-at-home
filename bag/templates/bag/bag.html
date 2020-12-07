@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
+<div class="overlay"></div>
     <div class="container mb-2">
         <div class="row">
             <div class="col">
@@ -43,21 +43,28 @@
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price_l }}</p>
+                                        <p class="my-0">£{{ item.product.price_l }}</p>
                                     </td>
                                     <td class="py-3 w-25">
                                         <p class="my-0">{{ item.quantity }}</p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price_l }}</p>
+                                        <p class="my-0">£{{ item.product.price_l }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    <h4 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
+                                    <h4 class="mt-4"><strong>Grand Total: £{{ total|floatformat:2 }}</strong></h4>
                                 </td>
                             </tr>
+                            <tr>
+                            <tr>
+                                <td colspan="5" class="text-right free-delivery">
+                                    <h4 class="mt-4"><strong>ALWAYS FREE DELIVERY</strong></h4>
+                                </td>
+                            </tr>
+
                             <tr>
                                 <td colspan="5" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
