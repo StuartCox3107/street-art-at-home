@@ -61,29 +61,12 @@
                     <ul
                         class="list-inline list-unstyled text-center text-lg-right my-0">
 
-                        <!--li for shopping basket-->
-                        <li class="list-inline-item hvr-underline-from-center">
-                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
-                                <div class="text-center">
-                                    <div>
-                                        <i class="fas fa-shopping-basket"></i>
-                                    </div>
-                                    <p class="my-0 align-bottom">
-                                        {% if total %}
-                                            £{{ total|floatformat:2 }}
-                                        {% else %}
-                                            £0.00
-                                        {% endif %}
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
                         <!--li for account admin-->
                         <li class="list-inline-item dropdown hvr-underline-from-center">
                             <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="text-center">
-                                    <p class="my-0">
-                                        <i class="fas fa-user"></i><br>User</p>
+                                    <div><i class="fas fa-user"></i></div>
+                                    <p class="my-0">My Account</p>
                                 </div>
                             </a>
                             <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -100,6 +83,24 @@
                                     <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                                 {% endif %}
                             </div>
+                        </li>
+
+                        <!--li for shopping basket-->
+                        <li class="list-inline-item hvr-underline-from-center">
+                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
+                                <div class="text-center">
+                                    <div>
+                                        <i class="fas fa-shopping-basket"></i>
+                                    </div>
+                                    <p class="my-0 align-bottom">
+                                        {% if total %}
+                                            £{{ total|floatformat:2 }}
+                                        {% else %}
+                                            £0.00
+                                        {% endif %}
+                                    </p>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
