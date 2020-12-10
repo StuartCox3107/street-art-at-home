@@ -8,7 +8,11 @@ def view_bag(request):
     return render(request, 'bag/bag.html')
 
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """ Add a quantity of the specified product to the shopping bag 
+    Args: 
+        item_id: Finds the correct chosen item
+    Returns:
+        changes the quantity of the item in the shopping bag"""
 
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')

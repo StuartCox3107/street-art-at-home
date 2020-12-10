@@ -30,7 +30,11 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show chosen product """
+    """ A view to show chosen product 
+    Args:
+        product_id: finds the product chosen
+    Returns:
+        The product detail page of the chosen item """
 
     product = get_object_or_404(Product, pk=product_id)
 
