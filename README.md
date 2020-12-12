@@ -165,6 +165,7 @@ All data is stored
 
 ## Features left to implement
 
+- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones
 
 ### [Top of page](#top)
 ---
