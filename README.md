@@ -57,6 +57,14 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | Sort the list of available products | Narrow down the range to desired products |
 | Shopper | Search for a product by name or description | Find a specific product |
 | Shopper | Easily see what I have searched for | Make a decision on whether this is a product I want | 
+| Shopper | Select the quantity of items to buy | Add to my cart and buy |
+| Shopper | View the items in my bag | See the items I have added and want to buy |
+| Shopper | Adjust the quantity of items in my bag | Make changes to the quantity chosen |
+| Shopper | Remove items from my shopping bag | Change to not buying an item if I change my mind |
+| Shopper | Easily enter payment information | Buy the items in my final choice |
+| Shopper | View an order confirmation post checkout | So I am assured in knowing the items purchased are the ones I wanted |
+| Shopper | Receive email confirmation of my order | Have confirmation to keep of the items purchased |
+| Site Owner | Add a product | Change the range of items sold | 
 
 
 ### [Top of page](#top)
