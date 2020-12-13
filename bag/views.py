@@ -17,7 +17,7 @@ def add_to_bag(request, item_id):
     Returns:
         changes the quantity of the item in the shopping bag"""
 
-    product = Product.objects.get(pk=item_id)
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
@@ -44,7 +44,7 @@ def adjust_bag(request, item_id):
         messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
     else:
         bag.pop(item_id)
-
+        messages.success(request, f'Removed {product.name} from bag')
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
 
