@@ -141,12 +141,6 @@ body {
     border-bottom-color: #17a2b8 !important;
 }
 
-.bag-notification-wrapper {
-    height: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
