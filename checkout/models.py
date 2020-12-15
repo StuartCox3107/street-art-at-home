@@ -33,7 +33,7 @@ class Order(models.Model):
         update grand total each time a line item is added
         """
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        self.total = self.total
+        self.total = self.order_total
         self.save()
 
     def save(self, *args, **kwargs):

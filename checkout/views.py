@@ -33,7 +33,6 @@ def checkout(request):
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
-                    isinstance(item_data, int)
                     order_line_item = OrderLineItem(
                         order=order,
                         product=product,
@@ -85,7 +84,7 @@ def checkout(request):
 
 def checkout_success(request, order_number):
     """
-    Handle successful checkouts
+    handle successful checkouts
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
