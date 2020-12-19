@@ -26,4 +26,3 @@ def profile(request):
     }
 
     return render(request, template, context)
-© 2020 GitHub, Inc.
