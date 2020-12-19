@@ -2,10 +2,10 @@ Hello {{ order.full_name }}!
 
 This is a confirmation of your order from street art @ home.
 
-You ordered:
+Order details:
 
-Order Number: {{ order.order_number }}
-Order Date: {{ order.date }}
+Order number: {{ order.order_number }}
+Ordered on: {{ order.date }}
 
 It cost you: £{{ order.total }}
 
