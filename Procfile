@@ -1,0 +1,1 @@
+web: gunicorn street_art_at_home.wsgi:application
