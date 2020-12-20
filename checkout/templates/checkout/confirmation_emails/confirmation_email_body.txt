@@ -9,7 +9,7 @@ Ordered on: {{ order.date }}
 
 It cost you: £{{ order.total }}
 
-Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}}.
+Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}.
 
 We've got your phone number on file as {{ order.phone_number }}.
 

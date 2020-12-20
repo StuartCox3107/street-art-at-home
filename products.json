@@ -1,0 +1,497 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "sku": "0001",
+    "name": "Evil Duck",
+    "city": "Paris",
+    "description": "This piece is on the roller shutters of a 11th arrondissement Paris bakery. Believed to have been done in early 2019, this slightly sinister duck appears to be trouble. The photographer took the picture just weeks before the piece was vandalised during summer 2019 and then removed by the bakery owner.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0001.jpg",
+    "image": "0001_xI6AThL.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "sku": "0002",
+    "name": "Marilyn",
+    "city": "Los Angeles",
+    "description": "This tribute to Marilyn Monroe was photographed in the city of her birth, LA. The red dress blends perfectly with the brick and wall features to create a bold and outstanding piece.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0002.jpg",
+    "image": "0002_2klwCGb.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "sku": "0003",
+    "name": "Current Affairs",
+    "city": "London",
+    "description": "A vibrant piece photographed on an East London wall. A statement of the politics of the artist covering a wide range of issues and putting the views of the artist at the forefront.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0003.jpg",
+    "image": "0003_HFN4SiQ.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "sku": "0004",
+    "name": "Watched",
+    "city": "London",
+    "description": "An installation piece on the side of a building in London. The artist is clear and unambiguous as to what the message is- You are being watched!",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0004.jpg",
+    "image": "0004_Ii35NJ6.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "sku": "0005",
+    "name": "Girl Frisking Soldier",
+    "city": "Bethlehem",
+    "description": "A picture of the classic Banksy mural of 2007.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0005.jpg",
+    "image": "0005_hERrdzV.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "sku": "0006",
+    "name": "Have a Heart",
+    "city": "Miami",
+    "description": "A purely fun piece with a 100% intended pun. The photo of the piece balances well with the vibrant colours to the left of the frame, the artist is unknown but this appeared  in downtown Miami in around 2017.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0006.jpg",
+    "image": "0006_hTuGRoI.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "sku": "0007",
+    "name": "Olympic Queen",
+    "city": "Rio De Janeiro",
+    "description": "A huge, vibrant and colourful piece created by the Sao Paulo artist Kobra for the 2016 Olympics in Rio De Janeiro. Five stories high and depicts the people of the world with one person with four races.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0007.jpg",
+    "image": "0007_Z9JNd6L.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "sku": "0008",
+    "name": "Coolest Street In The World",
+    "city": "Copenhagen",
+    "description": "This side alley in Christiania, Copenhagen has to be one of the most decorated streets on earth. Whilst none of the individual pieces are stunning as standalone pieces the overall effect is a visual masterpiece.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0008.jpg",
+    "image": "0008_vzmWtm7.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "sku": "0009",
+    "name": "Cool Nature",
+    "city": "Havana",
+    "description": "This piece in downtown Havana perfectly balances nature with art, the vibrant flowers appear in April through to June and combine with the fantastic weather at that time to create a masterpiece. July to March doesn't see the same vibrancy!",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "35.99",
+    "image_url": "http://0009.jpg",
+    "image": "0009_Sg7hLzD.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "sku": "0010",
+    "name": "Stop!",
+    "city": "New York",
+    "description": "This is one of the most simple but startling pieces. Stencilled onto a red sign the eyes act as a focal point for the piece drawing the viewer in to the picture.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0010.jpg",
+    "image": "0010_corGWYN.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "sku": "0011",
+    "name": "Pleading To The Stars",
+    "city": "Buenos Aires",
+    "description": "An enigmatic piece replicated in various districts throughout Buenos Aires. Appeared from 2016 to 2018 with the artist remaining unknown.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0011.jpg",
+    "image": "0011_mEU93b8.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "sku": "0012",
+    "name": "Flutter",
+    "city": "San Francisco",
+    "description": "A whimsical piece with bright colourful images set against the beautiful blue background of the sky. Seems to turn what would ordinarily be a mundane industrial unit into a more magical kingdom.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0012.jpg",
+    "image": "0012_Kg0U4Lp.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "sku": "0013",
+    "name": "Fruit",
+    "city": "Zurich",
+    "description": "A colourful lively piece at odds with the more traditional and grand surroundings of Zurich. Evokes a more tropical surrounding than it's position and can serve to brighten up any space.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0013.jpg",
+    "image": "0013_HKAELKp.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "sku": "0014",
+    "name": "City Of Dreams",
+    "city": "Los Angeles",
+    "description": "A most appropriately named piece for LA. Painted on the side of a Silver Lake block and has been a neighbourhood ever=present since 2012.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0014.jpg",
+    "image": "0014_w4THHQI.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "sku": "0015",
+    "name": "Portal",
+    "city": "Turin",
+    "description": "An unusual piece in the Barriera di Milano district of Turin, appeared in late 2018 by an unknown artist and draws the viewer in to the centre with more questions than answers as to who, what and why.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0015.jpg",
+    "image": "0015_MX9YoZw.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "sku": "0016",
+    "name": "Peace Vader",
+    "city": "Mumbai",
+    "description": "With no-one quite sure if this is meant to be Yeti or a bloated chilled Darth Vader the message is one of relaxation and calm. The harsh concrete background only adds to the contradictions.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0016.jpg",
+    "image": "0016_2eOpK5w.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "sku": "0017",
+    "name": "Taking The Mickey",
+    "city": "Paris",
+    "description": "Very much in the style of Banksy, but done by someone else (unknown). This piece appeared in late 2018 on the side of a Paris Chinatown building.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0017.jpg",
+    "image": "0017_ZqqBx8P.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "sku": "0018",
+    "name": "Crossroads",
+    "city": "Istanbul",
+    "description": "This piece reflects the crossroads of the city that is Istanbul and shows parts of Africa, Asia  Europe.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0018.jpg",
+    "image": "0018_1HdqXug.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "sku": "0019",
+    "name": "Raptor 30",
+    "city": "Toronto",
+    "description": "One for the basketball fans, paying homage (or not) to Stephen Curry",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0019.jpg",
+    "image": "0019_v7vdm8R.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "sku": "0020",
+    "name": "(Un)Certainty",
+    "city": "Hamburg",
+    "description": "Borrowing from the John Allen Paulos quote, this piece on the side of an industrial building in St Pauli, Hamburg gives a vibrancy of colour and multitude of things happening to draw you in again and again.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0020.jpg",
+    "image": "0020_3yJXsEo.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "sku": "0021",
+    "name": "Writing On The Wall (floor)",
+    "city": "Copenhagen",
+    "description": "This simple stencilled piece has a huge range of colours in comparison to the size and complexity and sends a message of positivity to wherever it is displayed.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0021.JPG",
+    "image": "0021_cRNaw7b.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "sku": "0022",
+    "name": "Transitor Resistor",
+    "city": "Prague",
+    "description": "This simplest of pieces harks back to the 80's in style and substance. Sprayed on to the side of Prague City Hall in 2018 it is a clean, stylish and simple piece.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0022.jpg",
+    "image": "0022_AwFv0ge.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "sku": "0023",
+    "name": "Petit Palomar",
+    "city": "Valencia",
+    "description": "A joyful piece that greets those who stay at the Petit Palomar in Valencia, close to the Barrio Del Carmen. This image shows a resident walking in step with the background perfectly.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.90",
+    "image_url": "http://0023.jpg",
+    "image": "0023_kJJEfWE.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+    "sku": "0034",
+    "name": "Bound In Colour",
+    "city": "New York",
+    "description": "A vivid piece more at home in a gallery than on the the side of a building. Painted in a gallery by the artist Monro on 2017 and relocated outdoors behind glass in 2018.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0034.jpg",
+    "image": "0034.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "sku": "0024",
+    "name": "Baby Face",
+    "city": "Miami",
+    "description": "This fun loving piece would add a splash of colour to any wall as it did to this Wynwood wall in 2016. Responsibility for it was claimed by the My-Am-Me collective but this has never been verified.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0024.jpg",
+    "image": "0024.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "sku": "0025",
+    "name": "Parking People",
+    "city": "Sydney",
+    "description": "A simple piece in yellow, black and white against the blue background shows a variety of people doing all things and basically going about their everyday lives. Image taken in a nothing to note back-street of Glebe and created by an unknown artist.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0025.jpg",
+    "image": "0025.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+    "sku": "0026",
+    "name": "The Simplest Question",
+    "city": "New York",
+    "description": "This Queens image of Richard Pryor asking a simple but currently unanswered question. The hyper-realism of the hero's image shows the skill of the artist.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0026.jpg",
+    "image": "0026.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "sku": "0027",
+    "name": "Serenity",
+    "city": "Paris",
+    "description": "The original is painted on the famous Rue Saint-Blaise in Paris. A building-sized piece with a multitude of things happening but the central theme of her calmness remains ever-present despite everything else happening.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0027.jpg",
+    "image": "0027.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "sku": "0035",
+    "name": "Submersive Philosopher",
+    "city": "Prague",
+    "description": "This small piece on the side of a non-descript Prague building was created in 2014. Just the size of a standard wall tile, it has humour and serious-ness at the same time with the viewer never sure as to which one prevails.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0035.jpg",
+    "image": "0035.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+    "sku": "0036",
+    "name": "Old School",
+    "city": "Lisbon",
+    "description": "Our most old school piece, harking back to 80's New York and the birthplace of street art. Deep reds contrasting with colder blue giving an explosion of colour and a piece not for the shy.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0036.jpg",
+    "image": "0036.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+    "sku": "0038",
+    "name": "Strive",
+    "city": "Chicago",
+    "description": "With colours not out of place in a warner climate, this Chicago iconic piece seems out of place with the city but still gives an impact to this day.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0038.jpg",
+    "image": "0038.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 33,
+  "fields": {
+    "sku": "0039",
+    "name": "Yes!",
+    "city": "Berlin",
+    "description": "With an explosion of colour bursting out at the top, this piece is truly one of two halves. The drab concrete bottom half is at total odds with the vibrancy of the top half and never seems to try to even reconcile.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0039.jpg",
+    "image": "0039.jfif"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+    "sku": "0037",
+    "name": "Wistful",
+    "city": "London",
+    "description": "This ethereal piece with a local woman in the foreground  uses a range of blue, purple and dark pink to create a moody image with an undertone of darkness.",
+    "price_s": "16.99",
+    "price_m": "25.99",
+    "price_l": "39.99",
+    "image_url": "http://0037.jpg",
+    "image": "0037_Da2TUR5.jpg"
+  }
+}
+]
