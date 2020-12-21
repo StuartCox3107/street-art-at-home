@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --no-input; gunicorn street_art_at_home.wsgi:application
+web: gunicorn street_art_at_home.wsgi:application
