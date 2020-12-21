@@ -116,7 +116,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'street_art_at_home.wsgi.application'
 
 
-# Database
+# database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 if 'DATABASE_URL' in os.environ:
