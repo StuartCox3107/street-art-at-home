@@ -27,7 +27,7 @@ body {
 }
 
 .btn-black {
-    background: black;
+    background: #ADB993;
     color: white;
 }
 
@@ -81,7 +81,7 @@ body {
 .btt-link,
 .update-link,
 .remove-item {
-    cursor: pointer;
+    cursor: url('cursor.cur'), auto !important;
 }
 
 .btn-outline-black {
@@ -91,7 +91,7 @@ body {
 }
 
 .free-delivery {
-    color: red;
+    color: #F564CC;
 }
 
 input[name='q']::placeholder {
