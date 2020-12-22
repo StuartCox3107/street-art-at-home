@@ -8,7 +8,8 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Poppins', san-serif;
-    background-color: #fcfaf5;
+    background-color: #fcfaf5;    
+    cursor: url('cursor.cur'), auto;
 }
 
 /* from Bulma */
@@ -81,7 +82,7 @@ body {
 .btt-link,
 .update-link,
 .remove-item {
-    cursor: url('cursor.cur'), auto !important;
+    cursor: pointer;
 }
 
 .btn-outline-black {

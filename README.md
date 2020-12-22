@@ -195,6 +195,7 @@ All data is stored
 - [Heroku](https://dashboard.heroku.com/apps) used to deploy project, opens in same tab, press back to return
 - [Flaticon.com](http://www.freepik.com) used for spray can favicon, opens in same tab, press back to return
 - [Dreamtimes.com](https://www.dreamstime.com/) used for graffiti man image, opens in same tab, press back to return
+- [Cursor.cc](https://www.cursor.cc/) used to generate graffiti spray can cursor, opens in same tab, press back to return
 
 ### [Top of page](#top)
 ---
