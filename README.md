@@ -197,6 +197,7 @@ All data is stored
 - [Dreamtimes.com](https://www.dreamstime.com/) used for graffiti man image, opens in same tab, press back to return
 - [Cursor.cc](https://www.cursor.cc/) used to generate graffiti spray can cursor, opens in same tab, press back to return
 
+
 ### [Top of page](#top)
 ---
 <a name="testingsection"></a>
@@ -272,6 +273,8 @@ Tested against [User Stories](#userstories)
 <a name="credits"></a>
 
 ## Credits & acknowledgements
+
+- Template for footer taken from [colorlib.com](https://codepen.io/hasib_technobari/pen/QmNxwy) and style customised for own site
 
  
 
