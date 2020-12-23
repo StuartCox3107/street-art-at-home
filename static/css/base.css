@@ -248,7 +248,7 @@ input[name='q']::placeholder {
 	bottom: 0;
 	width: 30px;
 	height: 4px;
-	background: #ff304d;
+	background: #F564CC;
 }
 .footer-links a{
 	padding: 10px 0;
@@ -256,7 +256,7 @@ input[name='q']::placeholder {
 	color: #fff;
 	display: block;
 	transition: color 0.5s ease-in-out;
-   text-decoration:none;
+    text-decoration:none;
 }
 .footer-links a:hover{
 	color: #ff304d;
