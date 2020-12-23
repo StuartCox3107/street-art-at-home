@@ -38,7 +38,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #ec71c9;
     color: white;
 }
 
@@ -83,6 +83,7 @@ body {
 .update-link,
 .remove-item {
     cursor: pointer;
+
 }
 
 .btn-outline-black {
