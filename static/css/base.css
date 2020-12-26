@@ -105,6 +105,10 @@ input[name='q']::placeholder {
     color: #ec71c9 !important;
 }
 
+.contactdiv {
+    padding-top: 100px;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

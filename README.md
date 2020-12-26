@@ -276,6 +276,8 @@ Tested against [User Stories](#userstories)
 
 - Template for footer taken from [colorlib.com](https://codepen.io/hasib_technobari/pen/QmNxwy) and style customised for own site
 
+- Basic functionality for contact us app used from this tutorial [learndjango.com](https://learndjango.com/tutorials/django-email-contact-form) and style customised for own site
+
  
 
 ### [Top of page](#top)
