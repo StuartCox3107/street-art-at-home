@@ -67,7 +67,7 @@
                         class="list-inline list-unstyled text-center text-lg-right my-0">
 
                         <!--li for account admin-->
-                        <li class="list-inline-item dropdown">
+                        <li class="list-inline-item dropdown idbasket">
                             <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="text-center">
                                     <div>
@@ -78,9 +78,7 @@
                             </a>
                             <div class="dropdown-menu border-0" aria-labelledby="user-options">
                                 {% if request.user.is_authenticated %}
-                                    {% if request.user.is_superuser %}
-                                        <a href="" class="dropdown-item">Product Management</a>
-                                    {% endif %}
+                                   
                                     <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                     <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
 
@@ -93,7 +91,7 @@
                         </li>
 
                         <!--li for shopping basket-->
-                        <li class="list-inline-item">
+                        <li class="list-inline-item idbasket">
                             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
                                 <div class="text-center">
                                     <div>
@@ -151,7 +149,7 @@
  <div class="container">
   <div class="row">
     	<div class="col-md-12">
-    	    <footer class="footer">				
+    	    <footer class="footer mt-3">				
 		<div class="container">
 			<div class="row">
                 <div class="col-md-3 m-b-30">
@@ -183,7 +181,7 @@
                     </a>	
 				</div>
 
-					<div class="footer-social-links m-t-30">
+					<div class="footer-social-links m-t-30 pl-3">
 						<li>
 							<a href="https://www.facebook.com/" target="_blank">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
