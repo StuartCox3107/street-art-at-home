@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'profiles',
     'blog',
+    'sendemail.apps.SendemailConfig',
     #'storages',
 ]
 
@@ -103,7 +104,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
-
+DEFAULT_FROM_EMAIL = 'coxstuart@hotmail.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
@@ -115,7 +116,6 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'street_art_at_home.wsgi.application'
-
 
 # database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases

@@ -221,7 +221,7 @@ input[name='q']::placeholder {
   }
 }
 
-/* hide footer obn small screens */
+/* hide footer on small screens */
 @media (max-width: 992px) {
   .footer{
     visibility: hidden;
