@@ -9,4 +9,5 @@ class BlogentryAdmin(admin.ModelAdmin):
     )
 
     ordering = ('blogid',)
+    
 admin.site.register(Blogentry, BlogentryAdmin)

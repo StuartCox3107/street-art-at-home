@@ -6,10 +6,10 @@ from .models import Blogentry
 def blog(request):
     """a view to show all blog entries"""
 
-    blogentries = Blogentry.objects.all()
+    blog = Blogentry.objects.all()
 
     context = {
-        'blogentries': blogentries,
+        'blog': blog,
     }
 
     return render(request, 'blog/blog.html', context)
