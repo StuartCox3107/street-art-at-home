@@ -25,11 +25,9 @@
                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                                 <div class="card border-0">
                                     {% if blog.blogimage %}
-                                        <a href="">
-                                            <img class="card-img-top img-fluid" src="{{ blog.blogimage.url }}" alt="{{ blog.blogtitle }}"></a>
+                                            <img class="card-img-top img-fluid" src="{{ blog.blogimage.url }}" alt="{{ blog.blogtitle }}">
                                         {% else %}
-                                            <a href="">
-                                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.blogtitle }}"></a>
+                                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.blogtitle }}">
                                             {% endif %}
                                             <div class="card-body pb-0">
                                                 <p class="mb-0">{{ blog.blogtitle }}</p>
