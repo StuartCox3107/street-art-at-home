@@ -10,12 +10,6 @@ class Citiesentry(models.Model):
     citiestext = models.TextField()
     citiesimage_url = models.URLField(max_length=1024, null=True, blank=True)
     citiesimage = models.ImageField(null=True, blank=True)
-    citiesimage2_url = models.URLField(max_length=1024, null=True, blank=True)
-    citiesimage2 = models.ImageField(null=True, blank=True)
-    citiesimage3_url = models.URLField(max_length=1024, null=True, blank=True)
-    citiesimage3 = models.ImageField(null=True, blank=True)
-    citiesimage4_url = models.URLField(max_length=1024, null=True, blank=True)
-    citiesimage4 = models.ImageField(null=True, blank=True)
-
+    
     def __str__(self):
         return self.citiestitle

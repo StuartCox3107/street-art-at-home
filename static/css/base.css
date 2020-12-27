@@ -241,9 +241,12 @@ input[name='q']::placeholder {
         left: 0;
         z-index: 1030;
     }
+}
 
-    .header-container {
-        padding-top: 164px;
+/* bring contact down on larger screens to clear navbar */
+@media (min-width: 768px) {
+    .bringcontentdown {
+        padding-top: 200px;
     }
 }
 
