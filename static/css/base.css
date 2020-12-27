@@ -156,10 +156,10 @@ input[name='q']::placeholder {
     border-bottom-color: #17a2b8 !important;
 }
 
-/* Allauth form formatting */
+/* Allauth & contactform formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
+    margin-top: 1.5rem;
     color: #6c757d; /* text-secondary */
 }
 
