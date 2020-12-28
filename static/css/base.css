@@ -289,12 +289,20 @@ input[name='q']::placeholder {
 	color: #fff;
 	display: block;
 	transition: color 0.8s ease-in-out;
-    text-decoration:none;
+}
+
+.footer-title:hover {
+    color: #ec71c9;
 }
 
 .footer-social-links li{
 	display: inline-block;
 }
+
+.one-footer-link a:hover {
+    text-decoration: none;
+}
+
 .footer-social-links a{
 	width: 40px;
 	height: 40px;
