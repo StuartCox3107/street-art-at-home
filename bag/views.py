@@ -6,13 +6,14 @@ from products.models import Product
 # Create your views here.
 
 def view_bag(request):
-    """ A view to return the shopping bag page """
+    """ a view to return the shopping bag page """
 
     return render(request, 'bag/bag.html')
 
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag 
-    Args: 
+    """ add a quantity of the specified product to the shopping bag 
+    Args:
+        request: HTTP request 
         item_id: Finds the correct chosen item
     Returns:
         changes the quantity of the item in the shopping bag"""
@@ -33,7 +34,12 @@ def add_to_bag(request, item_id):
     return redirect(redirect_url)
 
 def adjust_bag(request, item_id):
-    """adjust the quantity of the specified product to the specified amount"""
+    """adjust the quantity of the specified product to the specified amount
+    Args: 
+        request: HTTP request 
+        item_id: Finds the correct chosen item
+    Returns:
+        If number is adjusted to zero the item is removed from the bag when the update button is clicked, otherwise number in cart is adjusted"""
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))

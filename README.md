@@ -51,11 +51,9 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | |
 | Site user | Easily register an account | Hold an account and view profile |
 | Site user | Easily login or out | Access and use personal information |
-| Site user | Receive a post registration email | Know my registration has worked |
 | Site user | Have a personal profile | View order and payment history |
 |    |
-| Shopper | Sort the list of available products | Narrow down the range to desired products |
-| Shopper | Search for a product by name or description | Find a specific product |
+| Shopper | Search for a product by name or description | Find a specific product by city |
 | Shopper | Easily see what I have searched for | Make a decision on whether this is a product I want | 
 | Shopper | Select the quantity of items to buy | Add to my cart and buy |
 | Shopper | View the items in my bag | See the items I have added and want to buy |
@@ -63,8 +61,6 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | Remove items from my shopping bag | Change to not buying an item if I change my mind |
 | Shopper | Easily enter payment information | Buy the items in my final choice |
 | Shopper | View an order confirmation post checkout | So I am assured in knowing the items purchased are the ones I wanted |
-| Shopper | Receive email confirmation of my order | Have confirmation to keep of the items purchased |
-| Site Owner | Add a product | Change the range of items sold | 
 
 
 ### [Top of page](#top)
@@ -93,7 +89,7 @@ Designed to be simple, clean and give a main image with clear links to the possi
 [Desktop wireframe](wireframes/all_products_desktop.png)
 [Mobile Wireframe]()
 
-A page showing every produc that can be purchased, a filter and a "back to top icon".
+A page showing every product that can be purchased, and a "back to top icon".
 
 ### One product
 
