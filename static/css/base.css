@@ -245,7 +245,7 @@ input[name='q']::placeholder {
 /* bring contact down on larger screens to clear navbar */
 @media (min-width: 768px) {
     .bringcontentdown {
-        padding-top: 250px;
+        padding-top: 270px;
     }
 }
 
@@ -261,7 +261,7 @@ input[name='q']::placeholder {
 
 @media (max-width: 780px) {
     .footer {
-        display : none; 
+        display : none ; 
         visibility : hidden;
     }
 }
