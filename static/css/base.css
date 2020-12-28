@@ -48,11 +48,13 @@ body {
 
 .nav-item a:hover {
     color: #ec71c9!important;
+    border-bottom: 1px solid #ec71c9;
 }
 
-.hvr-underline-from-center a {
+.hvrpink a {
     font-size: 2em;
     text-decoration: none;
+    border-bottom: 1px solid #adb993;
 }
 
 .searchbox {
@@ -71,7 +73,7 @@ body {
 
 .indexintro {
     opacity: 0.7;
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 .mobilenav a:hover {
@@ -267,8 +269,7 @@ input[name='q']::placeholder {
 .footer{
 	padding: 10px 0;
     width: 100%;
-    background: #ADB993;
-   
+    background: #ADB993;   
 }
 .footer-title{
 	position: relative;
@@ -290,6 +291,7 @@ input[name='q']::placeholder {
 
 .footer-title:hover {
     color: #ec71c9;
+    border-bottom: 1px solid #ec71c9;
 }
 
 .footer-social-links li{

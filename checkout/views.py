@@ -177,7 +177,7 @@ def checkout_success(request, order_number):
                 user_profile_form.save()
 
     messages.success(request, f'Order successfully processed! \
-        Your order number is {order_number}. Please make note of this number.')
+        Your order number is {order_number}. Please make a note of this number.')
 
     if 'bag' in request.session:
         del request.session['bag']
