@@ -218,7 +218,7 @@ input[name='q']::placeholder {
   }
 }
 
-/* hide logo over image on large screens */
+/* remove logo over image on large screens */
 @media (min-width: 992px) {
   .mobilelogo {
     visibility: hidden;
@@ -229,6 +229,7 @@ input[name='q']::placeholder {
 @media (max-width: 992px) {
   .footer{
     visibility: hidden;
+    display: none;
   }
 }
 

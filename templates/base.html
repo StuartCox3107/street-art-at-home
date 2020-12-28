@@ -2,214 +2,155 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {% block meta %}
-            <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        {% endblock %}
-        {% block extra_meta %}{% endblock %}
-        {% block corecss %}
-            <link rel="icon" href="{% static 'favicon/favicon.ico' %}"/>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="{% static 'css/base.css' %}">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
-                        
-        {% endblock %}
-        {% block extra_css %}
-        <!--spray can cursor-->
-            <style type="text/css">body { cursor: url('data:image/x-icon;base64,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7f/t7e3/7e3t/+3t7f/t7e3/7e3t/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/46hN//W1tb/1dXV/9XV1f/V1dX/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/u7e7/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/46hN//V1dX/1dXV/9XV1f/X19f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/9HSyf/V1dX/1dXV/9XV1f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/j5tb/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/8vOvf/R0dH/0dHR/9HR0f/n5+f/6enp/+np6f/p6en/6enp/+np6f/p6en/2+DG/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/kKM9/7a4uf+2uLn/tri5/8vNzv/Lzc7/y83O/8vNzv/Lzc7/y83O/8vNzv+ftEH/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPfGesz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/oLJP/7jIb/+4yG//5eXl/////////////////7jIb/+4yG//qbxS/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3enrM9Ep6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+gsk//uMhv/7jIb//l5eX/ra2t/62trf//////uMhv/7jIb/+pvFL/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPAQAAAAAnrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/6CyT/+4yG//uMhv/+Xl5f////////////////+4yG//uMhv/6m8Uv+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAACesz33nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/oLJP/7jIb/+4yG//uMhv/7jIb/+4yG//uMhv/7jIb/+4yG//qbxS/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPdkAAAAAAAAAAAAAAACesz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+Qozr/uMhv/7jIb/+4yG//uMhv/7jIb/+4yG//uMhv/7jIb/+gtED/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAJ6zPc6esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPZ4AAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPc6esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACesz33nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM92gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnrM9Ep6zPfGesz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3fnrQ9BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//AP//+AAf/+AAB//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAYAAAAHAAAADwAAAA+AAAAfwAAAP+AAAH/wAAD/+AAB//4AB///wD/8='), auto; }</style>
-        
-        {% endblock %}
-        {% block corejs %}
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-            <script src="https://kit.fontawesome.com/62d4512cb8.js" crossorigin="anonymous"></script>
-            <script src="https://js.stripe.com/v3/"></script>
-        {% endblock %}
-        {% block extra_js %}{% endblock %}
+    
+<head>
+    {% block meta %}
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    {% endblock %}
+    {% block extra_meta %}{% endblock %}
+    {% block corecss %}
+        <link rel="icon" href="{% static 'favicon/favicon.ico' %}"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
+                    
+    {% endblock %}
+    {% block extra_css %}
+    <!--spray can cursor-->
+        <style type="text/css">body { cursor: url('data:image/x-icon;base64,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7f/t7e3/7e3t/+3t7f/t7e3/7e3t/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/46hN//W1tb/1dXV/9XV1f/V1dX/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/u7e7/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/46hN//V1dX/1dXV/9XV1f/X19f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/9HSyf/V1dX/1dXV/9XV1f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/j5tb/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/jqE3/8vOvf/R0dH/0dHR/9HR0f/n5+f/6enp/+np6f/p6en/6enp/+np6f/p6en/2+DG/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/kKM9/7a4uf+2uLn/tri5/8vNzv/Lzc7/y83O/8vNzv/Lzc7/y83O/8vNzv+ftEH/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPfGesz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+OoTf/oLJP/7jIb/+4yG//5eXl/////////////////7jIb/+4yG//qbxS/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3enrM9Ep6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/46hN/+gsk//uMhv/7jIb//l5eX/ra2t/62trf//////uMhv/7jIb/+pvFL/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPAQAAAAAnrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/jqE3/6CyT/+4yG//uMhv/+Xl5f////////////////+4yG//uMhv/6m8Uv+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAACesz33nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+OoTf/oLJP/7jIb/+4yG//uMhv/7jIb/+4yG//uMhv/7jIb/+4yG//qbxS/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPdkAAAAAAAAAAAAAAACesz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+Qozr/uMhv/7jIb/+4yG//uMhv/7jIb/+4yG//uMhv/7jIb/+gtED/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAJ6zPc6esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPZ4AAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6zPc6esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACesz33nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3/nrM92gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnrM9Ep6zPfGesz3/nrM9/56zPf+esz3/nrM9/56zPf+esz3fnrQ9BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//AP//+AAf/+AAB//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAYAAAAHAAAADwAAAA+AAAAfwAAAP+AAAH/wAAD/+AAB//4AB///wD/8='), auto; }</style>
+    {% endblock %}
+    {% block corejs %}
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/62d4512cb8.js" crossorigin="anonymous"></script>
+        <script src="https://js.stripe.com/v3/"></script>
+    {% endblock %}
+    {% block extra_js %}{% endblock %}
 
-        <title>street art @ home
-            {% block extra_title %}{% endblock %}
-        </title>
-    </head>
+    <title>street art @ home
+        {% block extra_title %}{% endblock %}
+    </title>
+</head>
 
-    <body>
-        <header class="container-fluid fixed-top">
-            <div
-                id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-                <!--logo-->
-                <div class="col-12 col-lg-5 my-auto">
-                    <a href="{% url 'home' %}" class="navbar-brand"><img class="img-fluid" src="{% static 'logo/logo.png' %}" alt="company logo"/></a>
+<body>
+    <header class="container-fluid fixed-top">
+        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+        <!--logo-->
+        <div class="col-12 col-lg-5 my-auto">
+            <a href="{% url 'home' %}" class="navbar-brand"><img class="img-fluid" src="{% static 'logo/logo.png' %}" alt="company logo"/></a>
+        </div>
+        <!--search box-->
+        <div class="d-flex justify-content-center col-lg-4 align-self-center">
+            <form method="GET" action="{% url 'products' %}">
+                <div class="input-group w-100">
+                    <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site"/>
+                    <div class="input-group-append">
+                        <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </button>
+                    </div>
                 </div>
-                <!--search box-->
-                <div class="d-flex justify-content-center col-lg-4 align-self-center">
-                    <form method="GET" action="{% url 'products' %}">
-                        <div class="input-group w-100">
-                            <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site"/>
-                            <div class="input-group-append">
-                                <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                                    <span class="icon">
-                                        <i class="fas fa-search"></i>
-                                    </span>
-                                </button>
+            </form>
+        </div>
+
+        <!-- basket & user-->
+            <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
+                <ul
+                    class="list-inline list-unstyled text-center text-lg-right my-0">
+
+                    <!--li for account admin-->
+                    <li class="list-inline-item dropdown idbasket">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <p class="my-0">My Account</p>
                             </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                                
+                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+
+                            {% else %}
+
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            {% endif %}
                         </div>
-                    </form>
-                </div>
+                    </li>
 
-                <!-- basket & user-->
-                <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
-                    <ul
-                        class="list-inline list-unstyled text-center text-lg-right my-0">
-
-                        <!--li for account admin-->
-                        <li class="list-inline-item dropdown idbasket">
-                            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <div class="text-center">
-                                    <div>
-                                        <i class="fas fa-user"></i>
-                                    </div>
-                                    <p class="my-0">My Account</p>
+                    <!--li for shopping basket-->
+                    <li class="list-inline-item idbasket">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
+                            <div class="text-center">
+                                <div>
+                                    <i class="fas fa-shopping-basket"></i>
                                 </div>
-                            </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                                {% if request.user.is_authenticated %}
-                                   
-                                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-
-                                {% else %}
-
-                                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                                {% endif %}
+                                <p class="my-0 align-bottom">
+                                    {% if total %}
+                                        £{{ total|floatformat:2 }}
+                                    {% else %}
+                                        £0.00
+                                    {% endif %}
+                                </p>
                             </div>
-                        </li>
-
-                        <!--li for shopping basket-->
-                        <li class="list-inline-item idbasket">
-                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link align-bottom" href="{% url 'view_bag' %}">
-                                <div class="text-center">
-                                    <div>
-                                        <i class="fas fa-shopping-basket"></i>
-                                    </div>
-                                    <p class="my-0 align-bottom">
-                                        {% if total %}
-                                            £{{ total|floatformat:2 }}
-                                        {% else %}
-                                            £0.00
-                                        {% endif %}
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </div>
 
-            <div class="row bg-white mb-10">
-                <nav class="navbar navbar-expand-lg navbar-light w-100">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    {% include 'includes/mobile-top-header.html' %}
-                    {% include 'includes/main-nav.html' %}
-                </nav>
-            </div>
+        <div class="row bg-white mb-10">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
+    </header>
 
+{% if messages %}
+    <div class="message-container">
+        {% for message in messages %}
+            {% with message.level as level %}
+            {% if level == 40 %}
+                {% include 'includes/toasts/toast_error.html' %}
+            {% elif level == 30 %}
+                {% include 'includes/toasts/toast_warning.html' %}
+            {% elif level == 25 %}
+                {% include 'includes/toasts/toast_success.html' %}
+            {% else %}
+                {% include 'includes/toasts/toast_info.html' %}
+            {% endif %}
+            {% endwith %}
+        {% endfor %}
+    </div>
+{% endif %}
 
-        </header>
-
-        {% if messages %}
-            <div class="message-container">
-                {% for message in messages %}
-                    {% with message.level as level %}
-                    {% if level == 40 %}
-                        {% include 'includes/toasts/toast_error.html' %}
-                    {% elif level == 30 %}
-                        {% include 'includes/toasts/toast_warning.html' %}
-                    {% elif level == 25 %}
-                        {% include 'includes/toasts/toast_success.html' %}
-                    {% else %}
-                        {% include 'includes/toasts/toast_info.html' %}
-                    {% endif %}
-                    {% endwith %}
-                {% endfor %}
-            </div>
-        {% endif %}
-
-       
-
+{% block page_header %}
+{% endblock %}
 
 {% block content %}
- <div class="container fixed-bottom">
-  <div class="row">
-    	<div class="col-md-12">
-    	    <footer class="footer mt-3">				
-		<div class="container">
-			<div class="row">
-                <div class="col-md-3 m-b-30">
-                    <a href="{% url 'home' %}" class="footer-links">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Home
-                    </div>
-                    </a>	
-				</div>
-				<div class="col-md-3 m-b-30">
-                    <a href="{% url 'products' %}" class="footer-links">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Shop
-                    </div>
-                    </a>	
-				</div>
-				<div class="col-md-3 m-b-30">
-                    <a href="{% url 'blog' %}" class="footer-links">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Blog
-                    </div>
-                    </a>	
-				</div>
-				<div class="col-md-3 m-b-30">
-                    <a href="{% url 'cities' %}" class="footer-links">
-					<div class="footer-title m-t-5 m-b-20 p-b-8">
-						Cities
-                    </div>
-                    </a>	
-				</div>
-
-					<div class="footer-social-links m-t-30 pl-3">
-						<li>
-							<a href="https://www.facebook.com/" target="_blank">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-							<a href="https://twitter.com/?lang=en-gb" target="_blank">
-								<i class="fa fa-twitter" aria-hidden="true"></i>
-							</a>
-							<a href="https://uk.linkedin.com/" target="_blank">
-								<i class="fa fa-linkedin" aria-hidden="true"></i>
-							</a>
-							<a href="https://www.youtube.com/" target="_blank">
-								<i class="fa fa-youtube" aria-hidden="true"></i>
-							</a>
-						</li>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-    	</div>
-	</div>
-</div>
 {% endblock %}
-        {% block postloadjs %}
-        <script type="text/javascript">
-            $('.toast').toast('show');
-        </script>
-    {% endblock %}
+       
+
+{% block postloadjs %}
+    <script type="text/javascript">
+        $('.toast').toast('show');
+    </script>
+{% endblock %}
     
     </body>
 </html>
