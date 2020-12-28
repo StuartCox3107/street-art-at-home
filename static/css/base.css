@@ -46,7 +46,6 @@ body {
     color: #ADB993 !important;
 }
 
-
 .hvr-underline-from-center a {
     font-size: 1.5em;
     color: #555555;
@@ -70,6 +69,10 @@ body {
 .indexintro {
     opacity: 0.7;
     padding-top: 80px;
+}
+
+.mobilenav a:hover {
+    color: #ec71c9 !important;
 }
 
 .btt-button {
@@ -225,14 +228,6 @@ input[name='q']::placeholder {
   }
 }
 
-/* hide footer on small screens */
-@media (max-width: 992px) {
-  .footer{
-    visibility: hidden;
-    display: none;
-  }
-}
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -247,7 +242,24 @@ input[name='q']::placeholder {
 /* bring contact down on larger screens to clear navbar */
 @media (min-width: 768px) {
     .bringcontentdown {
-        padding-top: 200px;
+        padding-top: 250px;
+    }
+}
+
+/* make mobile navbar links smaller for the smallest screens to prevent 2 rows */
+
+@media (max-width: 420px) {
+    .mobilenav {
+        font-size: 0.5rem;
+    }
+}
+
+/* remove footer on small screens */
+
+@media (max-width: 780px) {
+    .footer {
+        display : none; 
+        visibility : hidden;
     }
 }
 
