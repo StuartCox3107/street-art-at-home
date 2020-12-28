@@ -46,9 +46,12 @@ body {
     color: #ADB993 !important;
 }
 
+.nav-item a:hover {
+    color: #ec71c9!important;
+}
+
 .hvr-underline-from-center a {
-    font-size: 1.5em;
-    color: #555555;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -159,7 +162,7 @@ input[name='q']::placeholder {
     border-bottom-color: #17a2b8 !important;
 }
 
-/* Allauth & contactform formatting */
+/* Allauth formatting */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem;
