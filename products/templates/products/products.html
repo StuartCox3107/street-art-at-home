@@ -10,14 +10,16 @@
 {% endblock %}
 
 {% block content %}
+    <!--overlay to cover main image-->
     <div class="overlay"></div>
+    <!--page header-->
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center bringcontentdown">
                 <h2 class="logo-font m-t-30">Street Art</h2>
                 <hr class="w-50 mb-1"></div>
             </div>
-
+            <!--show searched products-->
             <div class="col-12 col-md-6 order-md-first">
                 <p class="text-muted mt-3 text-center text-md-left">
                     {% if search_term or current_categories or current_sorting != 'None_None' %}
@@ -34,7 +36,7 @@
                     {% endif %}
                 </p>
             </div>
-
+            <!--show all products-->
             <div class="row">
                 <div class="product-container col-10 offset-1">
                     <div class="row mt-1 mb-2"></div>
@@ -61,6 +63,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!--layout to order products evenly-->
                                     {% if forloop.counter|divisibleby:1 %}
                                         <div class="col-12 d-sm-none mb-5">
                                             <hr></div>
@@ -82,13 +85,14 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--navigation buttons-->
                                 <div class="btt-button shadow-sm rounded-0 border border-black">
                                     <a class="btt-link d-flex h-100">
                                         <i class="fas fa-arrow-up mx-auto my-auto"></i>
                                     </a>
                                 </div>
                             {% endblock %}
-
+<!--go to top arrow-->
 {% block postloadjs %}
     {{ block.super }}
     <script type="text/javascript">
