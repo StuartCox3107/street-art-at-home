@@ -22,7 +22,7 @@
                 <p class="text-muted mt-3 text-center text-md-left">
                     {% if search_term or current_categories or current_sorting != 'None_None' %}
                         <span class="small">
-                            <a href="{% url 'products' %}">Show all Items</a>
+                            <a class="showitems" href="{% url 'products' %}">Show all Items</a>
                             |
                         </span>
                     {% endif %}

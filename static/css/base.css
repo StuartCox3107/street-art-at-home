@@ -114,6 +114,14 @@ body {
     color: #ec71c9;
 }
 
+.showitems {
+    color: #555555;
+}
+
+.showitems:hover {
+    color: #ec71c9;
+}
+
 input[name='q']::placeholder {
     color: #aab7c4;
 }
