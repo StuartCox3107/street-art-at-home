@@ -5,7 +5,8 @@ class Blogentry(models.Model):
     class Meta:
         verbose_name_plural = 'Blogentries'
 
-    blogposter = models.CharField(max_length=254)   
+    blogposter = models.CharField(max_length=254)
+    blogdate = models.DateField(null=True)
     blogid = models.DecimalField(max_digits=6, decimal_places=0)
     blogtitle = models.CharField(max_length=254)
     blogtext = models.TextField()
