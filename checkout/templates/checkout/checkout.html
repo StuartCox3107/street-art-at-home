@@ -22,7 +22,17 @@
         <div class="row bringcontentdown">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Checkout</h2>
+                {% if user.is_authenticated %}
+                {% load account %}
+                {% load i18n %}
+                {% user_display user as name %}
+                    <h2 class="logo-font mb-4">Checkout</h2>
+                    <h2 class="logo-fontsml mb-4">for {{name}}</h2>
+                {% else %}
+                    <h2 class="logo-font mb-4">Checkout
+                    <h2 class="logo-fontsml mb-4">as a guest, or <span id="create"><label class="form-check-label" for="id-save-info">
+                        <a class="text-info" href="{% url 'account_signup' %}">Create an account</a></label><span><h2>
+                {% endif %}
                 <hr>
             </div>
         </div>

@@ -18,7 +18,16 @@
         <div class="row bringcontentdown">
             <div class="col">
                 <hr>
+            {% if user.is_authenticated %}
+                {% load account %}
+                {% load i18n %}
+                {% user_display user as name %}
                     <h2 class="logo-font mb-4">Shopping Bag</h2>
+                    <h2 class="logo-fontsml mb-4">for {{name}}</h2>
+                {% else %}
+                    <h2 class="logo-font mb-4">Shopping Bag</h2>
+                    <h2 class="logo-fontsml mb-4">You are shopping as a guest</h2>
+                {% endif %}
                     <hr></div>
                 </div>
                 <!--table to show items in shopping bag & cost-->
