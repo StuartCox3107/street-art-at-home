@@ -276,6 +276,14 @@ input[name='q']::placeholder {
     }
 }
 
+/* removes search box icon on the absolute tiniest screens */
+
+@media (max-width: 290px) {
+    #mobile-search {
+        display: none !important;
+    }
+}
+
 /* remove footer on small screens */
 
 @media (max-width: 780px) {
