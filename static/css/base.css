@@ -128,9 +128,23 @@ input[name='q']::placeholder {
     color: #ec71c9 !important;
 }
 
+.dropdown-menu.border-0 a:active {
+    background-color: #adb993;
+    color: white!important;
+}
+
+.dropdown-menu.border-0 a:focus {
+    background-color: #adb993;
+    color: white;
+}
+
 .logo-fontsml {
     font-size: 1.2rem;
-    color: #adb993;
+    color: #555;
+}
+
+.text-black.nav-link.dropdown-item.active {
+   background-color: #adb993 !important;
 }
 
 
@@ -160,10 +174,6 @@ input[name='q']::placeholder {
     position: absolute;
     right: 10px;
     bottom: 0px;
-}
-
-#create {
-    color: red !important;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -204,7 +214,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #adb993;
     border-radius: 0;
 }
 
@@ -251,6 +261,9 @@ input[name='q']::placeholder {
     border-style: none;
 }
 
+button.primaryAction:focus {
+    outline: none;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -290,11 +303,17 @@ input[name='q']::placeholder {
     .bringcontentdown {
         padding-top: 100px;
     }
+    .increment-qty.btn.btn-sm.btn-black.rounded-0,
+    .decrement-qty.btn.btn-sm.btn-black.rounded-0,
+    .table-responsive.rounded.bagmobile {
+        padding: .15rem .15rem;
+        font-size: .55rem;
+    }
 }
 
 /* make mobile navbar links smaller for the smallest screens to prevent 2 rows */
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .mobilenav {
         font-size: 0.5rem;
     }
@@ -303,13 +322,13 @@ input[name='q']::placeholder {
 
 /* removes search box icon on the absolute tiniest screens */
 
-@media (max-width: 290px) {
+@media (max-width: 325px) {
     #mobile-search {
         display: none !important;
     }
 }
 
-/* remove footer on small screens */
+/* remove footer on smaller screens */
 
 @media (max-width: 780px) {
     .footer {
