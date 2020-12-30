@@ -151,6 +151,12 @@ input[name='q']::placeholder {
     font-weight: bold;
 }
 
+.name {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -216,7 +222,6 @@ input[name='q']::placeholder {
     background-color: #adb993;
     padding: .375rem .75rem;
     font-size: 1rem;
-    line-height: 1.5;
     border-radius: 0;
 
     /* standard bootstrap btn transitions */
@@ -231,6 +236,10 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content a {
 	color: #17a2b8; /* text-info */
+}
+
+.primaryAction {
+    border-style: none;
 }
 
 
