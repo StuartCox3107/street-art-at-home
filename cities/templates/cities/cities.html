@@ -22,7 +22,8 @@
   <div class="row justify-content-center">
       {% for cities in cities %}
     <div class="col-md-5 d-flex align-items-center mt-3">
-      <img class="img-fluid" src="{{ cities.citiesimage.url }}" alt="{{ cities.citiestitle }}">
+        <a href="{{ cities.citiesimage.url }}" target="_blank">
+      <img class="img-fluid" src="{{ cities.citiesimage.url }}" alt="{{ cities.citiestitle }}"></a>
     </div>
     <div class="col-md-6 d-flex align-items-center mt-3">
       <div class="card-body">

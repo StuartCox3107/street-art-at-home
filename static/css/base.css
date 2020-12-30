@@ -267,6 +267,12 @@ input[name='q']::placeholder {
         padding-top: 270px;
     }
 }
+/* bring content down on smaller screens to clear navbar */
+@media (max-width: 991px) {
+    .bringcontentdown {
+        padding-top: 100px;
+    }
+}
 
 /* make mobile navbar links smaller for the smallest screens to prevent 2 rows */
 
@@ -275,6 +281,7 @@ input[name='q']::placeholder {
         font-size: 0.5rem;
     }
 }
+
 
 /* removes search box icon on the absolute tiniest screens */
 

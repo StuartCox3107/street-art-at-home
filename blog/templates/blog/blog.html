@@ -22,7 +22,8 @@
   <div class="row justify-content-center">
       {% for blog in blog %}
     <div class="col-md-5 d-flex align-items-center mt-3">
-      <img class="img-fluid" src="{{ blog.blogimage.url }}" alt="{{ blog.blogtitle }}">
+        <a href="{{ blog.blogimage.url }}" target="_blank">
+      <img class="img-fluid" src="{{ blog.blogimage.url }}" alt="{{ blog.blogtitle }}"></a>
     </div>
     <div class="col-md-6 d-flex align-items-center mt-3">
       <div class="card-body">
@@ -32,7 +33,6 @@
     </div>
     {% endfor %}
   </div>
-</div>
 </div>
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
