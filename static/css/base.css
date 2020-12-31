@@ -320,11 +320,17 @@ button.primaryAction:focus {
     .bringcontentdown {
         padding-top: 100px;
     }
-    .increment-qty.btn.btn-sm.btn-black.rounded-0,
-    .decrement-qty.btn.btn-sm.btn-black.rounded-0,
-    .table-responsive.rounded.bagmobile {
-        padding: .15rem .15rem;
-        font-size: .55rem;
+    .btn.btn-outline-black.rounded-0.text-uppercase,
+    .btn.btn-black.rounded-0.mt-0 {
+        padding: .3rem .3rem;
+    }
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .3rem .3rem;
+        font-size: .75rem;
+    }
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 }
 
