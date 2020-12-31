@@ -315,6 +315,12 @@ button.primaryAction:focus {
         padding-top: 270px;
     }
 }
+
+@media (max-width: 768px) {
+    .smallprofile {
+        font-size: 0.8rem;
+    }
+}
 /* bring content down on smaller screens to clear navbar */
 @media (max-width: 991px) {
     .bringcontentdown {

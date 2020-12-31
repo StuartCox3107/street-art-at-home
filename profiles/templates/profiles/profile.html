@@ -24,12 +24,12 @@
             {% load account %}
             {% load i18n %}
             {% user_display user as name %}
-            <h2 class="logo-font mb-4">My Profile: {{name}}</h2>
+            <h2 class="logo-font mb-4 smallprofile">My Profile: {{name}}</h2>
             <hr>
         </div>
     </div>
     <div class="row pb-3">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 smallprofile">
             <p class="text-muted">Contact Details</p>
             <!--profile table form-->
             <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
