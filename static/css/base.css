@@ -309,12 +309,13 @@ button.primaryAction:focus {
     }
 }
 
-/* bring contact down on larger screens to clear navbar */
+/* bring contact down on med & larger screens to clear navbar */
 @media (min-width: 768px) {
     .bringcontentdown {
         padding-top: 270px;
     }
 }
+
 
 @media (max-width: 768px) {
     .smallprofile {
