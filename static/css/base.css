@@ -147,6 +147,19 @@ input[name='q']::placeholder {
    background-color: #adb993 !important;
 }
 
+a.update-link.text-info:hover {
+    color: #ec71c9 !important;
+    text-decoration: underline;
+}
+
+a.text-info:hover {
+    color: #ec71c9 !important;
+}
+
+a#allauthlink:hover {
+    color: #ec71c9;
+}
+
 
 /* ------------------------------- bootstrap toasts */
 
