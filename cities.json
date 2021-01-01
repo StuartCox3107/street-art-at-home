@@ -1,0 +1,57 @@
+[
+  {
+    "model": "cities.citiesentry",
+    "pk": "1",
+    "fields": {
+      "citiesid": "1",
+      "citiestitle": "London",
+      "citiestext": "London is one of the world’s best places to see street art. Street Artists come from far and wide in order to paint its walls and visitors travel miles to see it. The East End of London in particular has a renowned reputation. There are however other fantastic spots with some great art scenes in their own right.  Brick Lane, Shoreditch, Leake Street and Penge are all places worth a visit.",
+      "citiesimage_url": "http://c0001.jpg",
+      "citiesimage": "c0001_4G0DhLj.jpg"
+    }
+  },
+  {
+    "model": "cities.citiesentry",
+    "pk": "2",
+    "fields": {
+      "citiesid": "2",
+      "citiestitle": "Berlin",
+      "citiestext": "From the iconic tags of the graffiti impresarios in Kreuzberg to the ever-evolving political splatters in Friedrichshain, Berlin’s street-art scene has exploded in recent years, transforming grey into colour. Whether you’re a first-time visitor or a local seeking to discover the unruly charm of the city, beyond Kreuzberg and Friedrichshain, Mitte and Prenzlauer Berg all all must-see's.",
+      "citiesimage_url": "http://c0002.jpg",
+      "citiesimage": "c0002.jpg"
+    }
+  },
+  {
+    "model": "cities.citiesentry",
+    "pk": "3",
+    "fields": {
+      "citiesid": "3",
+      "citiestitle": "Bristol",
+      "citiestext": "When thinking about the best places to see street art and graffiti, Bristol is the sort of place that comes high on the list.\r\n\r\nFor many, it is the undisputed capital of street art and graffiti in the UK.  To be fair there are few other places with as much of a connection to the scene as this city.\r\n\r\nIt’s scene in places is raw and uncurated and it is all around.  In others, some of the best organised art in the country.  Bristol is the home of Upfest. Europe’s biggest street art festival, whilst also being considered by many to be the birthplace of the UK’s graffiti scene.",
+      "citiesimage_url": "http://c0003.jpg",
+      "citiesimage": "c0003.jpg"
+    }
+  },
+  {
+    "model": "cities.citiesentry",
+    "pk": "4",
+    "fields": {
+      "citiesid": "4",
+      "citiestitle": "Paris",
+      "citiestext": "For centuries, Paris has attracted artists from around the world, all of them seeking to be inspired by the City of Lights. With some 130 museums in Paris, there is so much art to see, but what about the local, contemporary art that lies beyond the Louvre, Musée D’Orsay or Musée Rodin? Armed with some good walking shoes, you can uncover the subculture arts scene of Paris just by roaming the streets. You’ll have to be quick though, as most of the art listed below does have an expiration date — eventually to be replaced by another mural or fresco. But in many ways, it is indeed this ephemeral quality that adds to the works’ mystery and beauty. If you are lucky enough to be in Paris some time soon, keep your eyes open for the best pieces.",
+      "citiesimage_url": "http://c0004.jpg",
+      "citiesimage": "c0004_nwgtZJZ.jpg"
+    }
+  },
+  {
+    "model": "cities.citiesentry",
+    "pk": "6",
+    "fields": {
+      "citiesid": "5",
+      "citiestitle": "New York",
+      "citiestext": "Street art was born in NYC during the 1970s, a time when the city was bankrupt and wracked by crime. Almost as a response to the chaos, young kids from the Bronx and Brooklyn began bombing subway cars and buildings with graffiti tags. It was an illegal and sometimes dangerous activity, but it created an art form that would spread around the world, and find its way into NYC galleries and museums in NYC.",
+      "citiesimage_url": "http://0005.jpg",
+      "citiesimage": "c0005_cY2evwx.jpg"
+    }
+  }
+]

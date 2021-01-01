@@ -1,0 +1,67 @@
+[
+  {
+    "model": "blog.blogentry",
+    "pk": 2,
+    "fields": {
+      "blogposter": "Eric Vorsson",
+      "blogdate": "2021-01-27",
+      "blogid": "2",
+      "blogtitle": "Famous Madrid mural to be removed",
+      "blogtext": "In their wisdom, Madrid City Council have decided that this classic piece will be removed in the New Year,. If you are in Spain, write to your local leaders to protest against this travesty. We believe that all street art, especially pieces as important is this one enrich a city and increases the quality of life for all residents.",
+      "blogimage_url": "http://b0002.jpg",
+      "blogimage": "b0002_IdYJphs.jpg"
+    }
+  },
+  {
+    "model": "blog.blogentry",
+    "pk": 3,
+    "fields": {
+      "blogposter": "Camilla Wyatt",
+      "blogdate": "2021-01-20",
+      "blogid": "3",
+      "blogtitle": "Street Art @ Home tours",
+      "blogtext": "Aiming to re-start in mid-2021 (lockdown rules permitting!) we aim to once more start free tours of some cities to view pieces. If you buy a piece from us, this will entitle you to a free walking tour of the selected city to view your piece in its place. First city is London, followed by Paris and by the end of 2022 we plan to have 12 cities worldwide that can offer this.",
+      "blogimage_url": "http://b0003.jpg",
+      "blogimage": "b0003_I34dBpD.jpg"
+    }
+  },
+  {
+    "model": "blog.blogentry",
+    "pk": 4,
+    "fields": {
+      "blogposter": "Camilla Wyatt",
+      "blogdate": "2021-01-11",
+      "blogid": "4",
+      "blogtitle": "Hong Kong law",
+      "blogtext": "The local government in Hong Kong are set to outlaw all graffiti and street art! As a lesser known part of the NPCSC rules made famous through the summer '20 protests there, the local interpretation of the laws has given guidance that ALL street art contravenes the law. We say that this further diminishment of the right to freedom of expression and support all protesters there in their aims. We have arranged for 250 litres of paint to be exported to HK to a local street artist collective to support them.",
+      "blogimage_url": "http://0004.jpg",
+      "blogimage": "b0004.jpg"
+    }
+  },
+  {
+    "model": "blog.blogentry",
+    "pk": 5,
+    "fields": {
+      "blogposter": "Mora Sivalla",
+      "blogdate": "2021-01-04",
+      "blogid": "5",
+      "blogtitle": "New product",
+      "blogtext": "We were sent this as a free trial, and are happy to say that it is an excellent new product. No money exchanged hands for us to say this, but the seller did say that they could give 10% off to anyone who used the voucher code SAAH20 when placing an online order. Go to www.montana-cans.com and order before the end of January 2021 to take advantage of the offer.",
+      "blogimage_url": "http://b0005.jpg",
+      "blogimage": "b0005.jpg"
+    }
+  },
+  {
+    "model": "blog.blogentry",
+    "pk": 6,
+    "fields": {
+      "blogposter": "Mora Sivalla",
+      "blogdate": "2020-12-30",
+      "blogid": "6",
+      "blogtitle": "Brooklyn show",
+      "blogtext": "A new cutting edge street art exhibition at the 25 Kent venue in Brooklyn has been announced starting in September 2021 (fingers crossed!), the last show along similar lines there sold out months prior to the opening date so our advice is to book tickets now if you plan on a visit.",
+      "blogimage_url": "http://b0006.jpg",
+      "blogimage": "b0006.jpg"
+    }
+  }
+]
