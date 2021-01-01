@@ -64,11 +64,3 @@ def handler404(request, exception):
         Renders 404.html
     """
     return render(request, '404.html', status=404)
-
-def error_404(request, exception):
-        data = {}
-        return render(request,'bag/404.html', data)
-
-def error_500(request):
-        data = {}
-        return render(request,'bag/500.html', data)
