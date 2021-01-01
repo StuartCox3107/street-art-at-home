@@ -1,4 +1,5 @@
-from django.urls import path
+from django.urls import path, include
+from django.conf.urls import handler404, handler500
 from . import views
 
 urlpatterns = [
@@ -6,3 +7,6 @@ urlpatterns = [
     path('add/<item_id>/', views.add_to_bag, name='add_to_bag'),
     path('adjust/<item_id>/', views.adjust_bag, name='adjust_bag'),
 ]
+
+handler404 = 'bag.views.error_404'
+handler500 = 'bag.views.error_500'
