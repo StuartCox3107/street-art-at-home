@@ -1,6 +1,6 @@
 <a name="top"></a>
 <div align="center">
-<img src="" width="800">
+<img src="media/devicemockup.png" width="800">
 </div>
 
 ---
