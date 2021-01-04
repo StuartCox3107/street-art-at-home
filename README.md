@@ -34,7 +34,7 @@
 
 Street art @ home is for a fictional company, and designed to showcase and sell prints on canvas of photographs of graffiti and street-art for buyers to put on walls at home. The precise details of the artwork location and artist is indicative rather than 100% true.
 
-## [Link to live site](#) opens in same tab, click back if needed
+## [Link to live site](https://street-art-at-home.herokuapp.com/) opens in same tab, click back if needed
 
 ### [Top of page](#top)
 
@@ -82,7 +82,9 @@ Click [here]() for the site plan, opens in same tab, click back if needed
 [Desktop Wireframe](wireframes/home_desktop.png)
 [Mobile Wireframe]()
 
-Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site does. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, an "About Us" area, the shopping basket and user admin area. Below this and on all pages will be a search bar,
+Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, an "Cities" area, the shopping basket and user account area. Also, on all views their will be a product searh bar present.
+
+The concept of the search bar is to drive users towards the commercial aspects of the site and will search product titles and description only (eg, not blog and cities entries). 
 
 ### All products
 
@@ -135,11 +137,11 @@ TO DO!!!!!!! CHECK WIREFRAME UPLOADED
 [Desktop wireframe](wireframes/Blog_desktop.png)
 [Mobile Wireframe]()
 
-A simple page with images and detail of latest works added as well as a button to return the user home.
+A simple page with images and detail of added blog items related to the subject areas and designed to showcase the cutting edge.
 
-### About us
+### Cities
 
-A page giving details about the company history, ethics and reason for existence.
+A page giving an overview of our "favourite cities" in terms of street art.
 
 ### [Top of page](#top)
 ---
@@ -159,8 +161,38 @@ Colours are designed to be largely soft and pastel like but with the option for 
 
 ## Database features/design
 
-All data is stored
+Data is stored in three models;
 
+**Products**
+
+Consisting of 6 subsets;
+
+1: Sku- Numerical identifier
+2: Name- Product name
+3: City- City located in
+4: Description- Overview of product
+5: Price_l: Price in GBP
+6: Image: Image of piece
+
+**Blogentries**
+
+Consisting of 6 subsets;
+
+1: Blogid- Numerical identifier
+2: Blogposter- Name of poster
+3: Blogdate- Date of blog posting
+4: Blogtitle- Heading of blog
+5: Blogtext- Main text of blog article
+6: Blogimage- Article image
+
+**Citiesentries**
+
+Consisting of 4 subsets;
+
+1: Citiesid- Numerical identifier
+2: Citiestitle- Title of entry (city)
+3: Citiestext- Main text of cities article
+4: Image- Article image
 
 
 ### [Top of page](#top)
@@ -169,7 +201,7 @@ All data is stored
 
 ## Features left to implement
 
-- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones
+- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. I would also add email functionality to both the user login process and order confirmation process.
 
 ### [Top of page](#top)
 ---
@@ -259,10 +291,12 @@ Tested against [User Stories](#userstories)
 
 ### Closed issues
 
+- I had issues in terms of the automatic upload of static and media files to AWS. To deal with this I opted for a manual upload to populate. In future, I would attempt to make this an automatic process.
 
 
 ### Open issues
 
+- Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however.
 
 ### [Top of page](#top)
 ---
@@ -274,7 +308,9 @@ Tested against [User Stories](#userstories)
 
 - Basic functionality for contact us app used from this tutorial [learndjango.com](https://learndjango.com/tutorials/django-email-contact-form) and style customised for own site
 
- 
+- As always, the advice and support from my mentor Rohit 
+
+
 
 ### [Top of page](#top)
 ---

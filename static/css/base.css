@@ -9,7 +9,6 @@ body {
     color: #555;
     font-family: 'Poppins', san-serif;
     background-color: #fcfaf5;    
-    cursor: url('cursor.cur'), auto;
 }
 
 /* from Bulma */
