@@ -263,6 +263,27 @@ Consisting of 4 subsets;
 
 Tested against [User Stories](#userstories)
 
+| As a | I want to be able to | Achieved |
+| --- | --- | --- |
+| Shopper | View products | [x] |
+| Shopper | View individual products | [x] |
+| Shopper | Check out interesting new street art | [x] |
+| Shopper | View my shopping bag | [x] |
+| |
+| Site user | Know what the site is about at first glance | [x] |
+| Site user | Easily register an account | [x] |
+| Site user | Easily login or out | [x] |
+| Site user | Have a personal profile | [x] |
+|    |
+| Shopper | Search for a product by name or description | [x] |
+| Shopper | Easily see what I have searched for | M[x] | 
+| Shopper | Select the quantity of items to buy | [x] |
+| Shopper | View the items in my bag | [x] |
+| Shopper | Adjust the quantity of items in my bag | [x] |
+| Shopper | Remove items from my shopping bag | [x] |
+| Shopper | Have the ability to order as a guest | [x] |
+| Shopper | Easily enter payment information | [x] |
+| Shopper | View an order confirmation post checkout | [x] |
 
 
 <a name="further"></a>
