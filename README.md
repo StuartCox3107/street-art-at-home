@@ -30,7 +30,7 @@
 ---
 <a name="aim"></a>
 
-## Aim of the site
+## :dart: Aim of the site
 
 Street art @ home is for a fictional company, and designed to showcase and sell prints on canvas of photographs of graffiti and street-art for buyers to put on walls at home. The precise details of the artwork location and artist is indicative rather than 100% true.
 
@@ -40,7 +40,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 <a name="userstories"></a>
 
-## User Stories 
+## :woman: User Stories 
 
 | As a | I want to be able to | So that I can |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ### [Top of page](#top)
 ---
-## Site plan, features & wireframes
+## :compass: Site plan, features & wireframes
 
 <a name="plan"></a>
 
@@ -155,7 +155,7 @@ A page giving an overview of our favourite cities in terms of street art.
 ---
 <a name="theme"></a>
 
-## Theme & typography
+## :art: Theme & typography
 
 Colours are designed to be largely soft and pastel like but with the option for the addition of a bold pink colour where needed, and a dark grey to give emphasis, the below colour palette was generated using [coolors](https://coolors.co/)
 
@@ -167,7 +167,7 @@ Colours are designed to be largely soft and pastel like but with the option for 
 
 <a name="database"></a>
 
-## Database features/design
+## :floppy_disk: Database features/design
 
 Data is stored in three models;
 
@@ -207,7 +207,7 @@ Consisting of 4 subsets;
 ---
 <a name="left"></a>
 
-## Features left to implement
+## :lock: Features left to implement
 
 - In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. I would also add email functionality to both the user login process and order confirmation process.
 
@@ -215,7 +215,7 @@ Consisting of 4 subsets;
 ---
 <a name="tech"></a>
 
-## Technologies used
+## :bulb: Technologies used
 
 - HTML, CSS, Javascript & Python languages
 - [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
@@ -238,7 +238,7 @@ Consisting of 4 subsets;
 ---
 <a name="testingsection"></a>
 
-## Testing
+## :goggles: Testing
 <a name="code"></a>
 
 ### Code
@@ -301,7 +301,7 @@ Tested against [User Stories](#userstories)
 ---
 <a name="deploy"></a>
 
-## Deployment
+## :computer: Deployment
 
 
 
@@ -316,7 +316,7 @@ Tested against [User Stories](#userstories)
 ---
 <a name="issues"></a>
 
-## Issues & bugs
+## :bugs: Issues & bugs
 
 ### Closed issues
 
@@ -331,7 +331,7 @@ Tested against [User Stories](#userstories)
 ---
 <a name="credits"></a>
 
-## Credits & acknowledgements
+## :clap: Credits & acknowledgements
 
 - Template for footer taken from [colorlib.com](https://codepen.io/hasib_technobari/pen/QmNxwy) and style customised for own site
 
