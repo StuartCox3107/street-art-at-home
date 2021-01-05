@@ -81,63 +81,66 @@ Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click 
 
 ### Landing page
 
-[Desktop Wireframe](wireframes/home_desktop.png)
-[Mobile Wireframe]()
+[Desktop Wireframe](wireframes/homedesktop.png)
+[Mobile Wireframe](wireframes/homemobile.png)
 
-Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, an "Cities" area, the shopping basket and user account area. Also, on all views their will be a product searh bar present.
+Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, a Cities area, the shopping basket and user account area. Also, on all views their will be a product search bar present.
 
 The concept of the search bar is to drive users towards the commercial aspects of the site and will search product titles and description only (eg, not blog and cities entries). 
 
 ### All products
 
-[Desktop wireframe](wireframes/all_products_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/all_productsdesktop.png)
+[Mobile Wireframe](wireframes/all_productsmobile.png)
 
-A page showing every product that can be purchased, and a "back to top icon".
+A page showing every product that can be purchased (image, title, price), and a "back to top icon".
 
 ### One product
 
-[Desktop wireframe](wireframes/one_product_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/one_productdesktop.png)
+[Mobile Wireframe](wireframes/one_productdesktop.png)
 
-A page showing an individual product chosen with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
+A page showing an individual product, chosen from the all_products view with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
 
 ### Sign up
 
-[Desktop wireframe](wireframes/Signup_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/signupdesktop.png)
+[Mobile Wireframe](wireframes/signupmobile.png)
 
 A page giving the user the ability to be able to create an account using their personal detail with buttons to sign-in/submit or navigate to the login page if they realise that they do actually have an account already.
 
 ### Sign in
 
-[Desktop wireframe](wireframes/Login_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/logindesktop.png)
+[Mobile Wireframe](wireframes/loginmobile.png)
 
 A simple page giving the user the ability to enter their username and password that they have to login to their account. Home and Sign-in (process) buttons to be present.
 
 ### Profile
 
-[Desktop wireframe](wireframes/Myprofile_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/myaccountdesktop.png)
+[Mobile Wireframe](wireframes/myaccountmobile.png)
 
 A simple page giving the user the ability to view their profile details and update if required.
 
 ### Basket
 
-[Desktop wireframe](wireframes/Basket_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/bagdesktop.png)
+[Mobile Wireframe](wireframes/bagmobile.png)
 
-A page showing an image of all items ordered as well as a breakdown of item price and total price. Buttons giving the abaility to continue shopping or to go to the checkout app if the user has finished shopping.
+A page showing an image of all items ordered as well as a breakdown of item price and total price. Buttons giving the ability to continue shopping or to go to the checkout app if the user has finished shopping.
 
 ### Checkout
 
-TO DO!!!!!!! CHECK WIREFRAME UPLOADED
+[Desktop wireframe](wireframes/checkoutdesktop.png)
+[Mobile Wireframe](wireframes/checkoutmobile.png)
+
+A page giving the user the ability to review and purchase all chosen items in the bag. A Keep Shopping and Checkout button present.
 
 ### Blog
 
-[Desktop wireframe](wireframes/Blog_desktop.png)
-[Mobile Wireframe]()
+[Desktop wireframe](wireframes/blogdesktop.png)
+[Mobile Wireframe](wireframes/blogmobile.png)
 
 A simple page with images and detail of added blog items related to the subject areas and designed to showcase the cutting edge.
 
