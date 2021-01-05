@@ -49,6 +49,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | Check out interesting new street art | Have access to cutting edge |
 | Shopper | View my shopping bag | Know what I am spending |
 | |
+| Site user | Know what the site is about at first glance | Check immediately whether this is the site for me |
 | Site user | Easily register an account | Hold an account and view profile |
 | Site user | Easily login or out | Access and use personal information |
 | Site user | Have a personal profile | View order and payment history |
@@ -59,6 +60,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 | Shopper | View the items in my bag | See the items I have added and want to buy |
 | Shopper | Adjust the quantity of items in my bag | Make changes to the quantity chosen |
 | Shopper | Remove items from my shopping bag | Change to not buying an item if I change my mind |
+| Shopper | Have the ability to order as a guest | Order even if not registered |
 | Shopper | Easily enter payment information | Buy the items in my final choice |
 | Shopper | View an order confirmation post checkout | So I am assured in knowing the items purchased are the ones I wanted |
 
@@ -71,7 +73,7 @@ Street art @ home is for a fictional company, and designed to showcase and sell 
 
 ### Site plan
 
-Click [here]() for the site plan, opens in same tab, click back if needed
+Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click back if needed
 
 <a name="features"></a>
 
@@ -165,33 +167,33 @@ Data is stored in three models;
 
 **Products**
 
-Consisting of 6 subsets;
+***Consisting of 6 subsets;***
 
-1: Sku- Numerical identifier
-2: Name- Product name
-3: City- City located in
-4: Description- Overview of product
-5: Price_l: Price in GBP
+1: Sku- Numerical identifier,
+2: Name- Product name,
+3: City- City located in,
+4: Description- Overview of product,
+5: Price_l: Price in GBP,
 6: Image: Image of piece
 
 **Blogentries**
 
 Consisting of 6 subsets;
 
-1: Blogid- Numerical identifier
-2: Blogposter- Name of poster
-3: Blogdate- Date of blog posting
-4: Blogtitle- Heading of blog
-5: Blogtext- Main text of blog article
+1: Blogid- Numerical identifier,
+2: Blogposter- Name of poster,
+3: Blogdate- Date of blog posting,
+4: Blogtitle- Heading of blog,
+5: Blogtext- Main text of blog article,
 6: Blogimage- Article image
 
 **Citiesentries**
 
 Consisting of 4 subsets;
 
-1: Citiesid- Numerical identifier
-2: Citiestitle- Title of entry (city)
-3: Citiestext- Main text of cities article
+1: Citiesid- Numerical identifier,
+2: Citiestitle- Title of entry (city),
+3: Citiestext- Main text of cities article,
 4: Image- Article image
 
 
