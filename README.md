@@ -331,7 +331,7 @@ Also, as I manually uploaded static and media files to AWS the below was also se
 ---
 <a name="issues"></a>
 
-## :bugs: Issues & bugs
+## :ant: Issues & bugs
 
 ### Closed issues
 
