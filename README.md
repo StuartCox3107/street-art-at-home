@@ -265,25 +265,25 @@ Tested against [User Stories](#userstories)
 
 | As a | I want to be able to | Achieved |
 | --- | --- | --- |
-| Shopper | View products | :white_check_mark: |
-| Shopper | View individual products | :white_check_mark: |
-| Shopper | Check out interesting new street art | :white_check_mark: |
-| Shopper | View my shopping bag | :white_check_mark: |
+| Shopper | View products | :thumbsup: |
+| Shopper | View individual products | :thumbsup: |
+| Shopper | Check out interesting new street art | :thumbsup: |
+| Shopper | View my shopping bag | :thumbsup: |
 | |
-| Site user | Know what the site is about at first glance | :white_check_mark: |
-| Site user | Easily register an account | :white_check_mark: |
-| Site user | Easily login or out | :white_check_mark: |
-| Site user | Have a personal profile | :white_check_mark: |
+| Site user | Know what the site is about at first glance | :thumbsup: |
+| Site user | Easily register an account | :thumbsup: |
+| Site user | Easily login or out | :thumbsup: |
+| Site user | Have a personal profile | :thumbsup: |
 |    |
-| Shopper | Search for a product by name or description | :white_check_mark: |
-| Shopper | Easily see what I have searched for | :white_check_mark: | 
-| Shopper | Select the quantity of items to buy | :white_check_mark: |
-| Shopper | View the items in my bag | :white_check_mark: |
-| Shopper | Adjust the quantity of items in my bag | :white_check_mark: |
-| Shopper | Remove items from my shopping bag | :white_check_mark: |
-| Shopper | Have the ability to order as a guest | :white_check_mark: |
-| Shopper | Easily enter payment information | :white_check_mark: |
-| Shopper | View an order confirmation post checkout | :white_check_mark: |
+| Shopper | Search for a product by name or description | :thumbsup: |
+| Shopper | Easily see what I have searched for | :thumbsup: | 
+| Shopper | Select the quantity of items to buy | :thumbsup: |
+| Shopper | View the items in my bag | :thumbsup: |
+| Shopper | Adjust the quantity of items in my bag | :thumbsup: |
+| Shopper | Remove items from my shopping bag | :thumbsup: |
+| Shopper | Have the ability to order as a guest | :thumbsup: |
+| Shopper | Easily enter payment information | :thumbsup: |
+| Shopper | View an order confirmation post checkout | :thumbsup: |
 
 
 <a name="further"></a>
@@ -325,7 +325,7 @@ Tested against [User Stories](#userstories)
 
 ### Open issues
 
-- Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however.
+- Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however and I took the decision to leave as is.
 
 ### [Top of page](#top)
 ---
@@ -334,8 +334,6 @@ Tested against [User Stories](#userstories)
 ## Credits & acknowledgements
 
 - Template for footer taken from [colorlib.com](https://codepen.io/hasib_technobari/pen/QmNxwy) and style customised for own site
-
-- Basic functionality for contact us app used from this tutorial [learndjango.com](https://learndjango.com/tutorials/django-email-contact-form) and style customised for own site
 
 - As always, the advice and support from my mentor Rohit 
 
