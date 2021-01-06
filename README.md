@@ -319,13 +319,17 @@ To deploy to Heroku:
     - AWS_ACCESS_KEY
     - AWS_SECRET_ACCESS_KEY
     - DISABLE_COLLECT_STATIC (In this case as I uploaded static and media files manually)
-    - Freeze the requirements in the terminal by typing `pip3 freeze > requirements.txt'
-    - Create a Procfile and save the below code into item
+    - Freeze the requirements in the terminal by typing
+    `pip3 freeze > requirements.txt`
+    - Create a Procfile and save the below code into item<br>
     `web: gunicorn street_art_at_home.wsgi:application`
-    - To set the database so it works with Postgres comment out the current database settings and add the below code to settings.py
-    <code>DATABASES = {<br> 
-    &nbsp'default': dj_database_url.parse database_url_from_heroku_config_vars)
-    &nbsp}</code>
+    - To set the database so it works with Postgres comment out the current database settings and add the below code to settings.py<br>
+    ```
+    DATABASES = {<br>
+        'default': dj_database_url.parse(database_url_from_heroku_config_vars)<br>
+        }
+    ```
+    
     - Run migrations
     - Create a superuser by typing
     `python3 manage.py createsuperuser`
