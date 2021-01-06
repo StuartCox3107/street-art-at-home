@@ -319,33 +319,32 @@ To deploy to Heroku:
     - AWS_ACCESS_KEY
     - AWS_SECRET_ACCESS_KEY
     - DISABLE_COLLECT_STATIC, set to 1 (In this case as I uploaded static and media files manually)
-    - Freeze the requirements in the terminal by typing
-    'pip3 freeze > requirements.txt'
-    - Create a Procfile and save the below code into item<br>
-    `web: gunicorn street_art_at_home.wsgi:application`
-    - To set the database so it works with Postgres comment out the current database settings and add the below code to settings.py<br>
-        `DATABASES = {<br>
-            'default': dj_database_url.parse(database_url_from_heroku_config_vars)<br>
-            }`
-    
-    - Run migrations
-    - Create a superuser by typing
-    `python3 manage.py createsuperuser`
-    - Revert back to the original setup in settings.py
-    - Add the below code in an if statement
-        `if 'DATABASE_URL' in os.environ:<br>
-        DATABASES = {<br>
-            'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))<br>
-            }<br>
-        else:<br>
-        DATABASES = {<br>
-            'default': {<br>
-                'ENGINE': 'django.db.backends.sqlite3',<br>
-                'NAME': BASE_DIR / 'db.sqlite3',<br>
-            }<br>
+- Freeze the requirements in the terminal by typing
+'pip3 freeze > requirements.txt'
+- Create a Procfile and save the below code into item<br>
+`web: gunicorn street_art_at_home.wsgi:application`
+- To set the database so it works with Postgres comment out the current database settings and add the below code to settings.py<br>
+    `DATABASES = {<br>
+        'default': dj_database_url.parse(database_url_from_heroku_config_vars)<br>
         }`
-    - Add the app name to ALLOWED_HOSTS in settings.py
-    - To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
+- Run migrations
+- Create a superuser by typing
+`python3 manage.py createsuperuser`
+- Revert back to the original setup in settings.py
+- Add the below code in an if statement
+   `if 'DATABASE_URL' in os.environ:<br>
+    DATABASES = {<br>
+        'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))<br>
+        }<br>
+    else:<br>
+    DATABASES = {<br>
+        'default': {<br>
+            'ENGINE': 'django.db.backends.sqlite3',<br>
+            'NAME': BASE_DIR / 'db.sqlite3',<br>
+        }<br>
+    }`
+- Add the app name to ALLOWED_HOSTS in settings.py
+- To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
 
 
 ### [Top of page](#top)
