@@ -356,7 +356,7 @@ else:
         }
     }
 ```
-</summary>
+</dropdown>
 - Add the app name to ALLOWED_HOSTS in settings.py
 - To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
 
