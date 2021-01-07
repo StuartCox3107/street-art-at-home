@@ -393,11 +393,12 @@ else:
 - Add the 2 AWS keys to the config vars in the Heroku config vars
 - Add the below if statement to settings.py to check that USE_AWS is set to true<br>
 ```
-AWS_STORAGE_BUCKET_NAME = 'street-art-at-home'
-AWS_S3_REGION_NAME = 'eu-west-2'
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'street-art-at-home'
+    AWS_S3_REGION_NAME = 'eu-west-2'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 ```
 
 
