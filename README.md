@@ -46,7 +46,7 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 
 <a name="userstories"></a>
 
-## :woman: [User Stories](name="userstories") 
+## :woman: User Stories
 
 | As a | I want to be able to | So that I can |
 | --- | --- | --- |
@@ -320,12 +320,15 @@ Tested against [User Stories](#userstories)
 - Choose a relevant and unique app name
 - Add Heroku Postgres as an add-on
 - In the Config Vars add the relevant variables for:
+    <details>
+    <summary markdown="span">Click to expand</summary>
     - SECRET_KEY
     - STRIPE_PUBLIC_KEY
     - STRIPE_WH_KEY
     - DATABASE_URL
     - USE_AWS (set to True)
     - DISABLE_COLLECT_STATIC, set to 1 (In this case as I uploaded static and media files manually)
+    </details>
 - Freeze the requirements in the terminal by typing
 'pip3 freeze > requirements.txt'
 - Create a Procfile and save the below code into item<br>
