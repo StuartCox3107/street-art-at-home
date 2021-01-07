@@ -83,7 +83,7 @@ Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click 
 
 ### Landing page
 
-[Desktop Wireframe](wireframes/homedesktop.png)
+[Desktop Wireframe](wireframes/homedesktop.png) / 
 [Mobile Wireframe](wireframes/homemobile.png)
 
 Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, a Cities area, the shopping basket and user account area. Also, on all views their will be a product search bar present.
@@ -92,7 +92,7 @@ The concept of the search bar is to drive users towards the commercial aspects o
 
 ### All products
 
-[Desktop Wireframe](wireframes/all_productsdesktop.png)
+[Desktop Wireframe](wireframes/all_productsdesktop.png) / 
 [Mobile Wireframe](wireframes/all_productsmobile.png)
 
 A page showing every product that can be purchased (image, title, price), and a "back to top icon".
@@ -134,7 +134,7 @@ A page showing an image of all items ordered as well as a breakdown of item pric
 
 ### Checkout
 
-[Desktop Wireframe](wireframes/checkoutdesktop.png) /
+[Desktop Wireframe](wireframes/checkoutdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/checkoutmobile.png)
 
 A page giving the user the ability to review and purchase all chosen items in the bag. A Keep Shopping and Checkout button present.
