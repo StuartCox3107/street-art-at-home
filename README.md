@@ -5,7 +5,7 @@
 
 ---
 
-# street art @ home 
+# street art @ home <img src="static/favicon/favicon.ico>
 
 ---
 ## Links
