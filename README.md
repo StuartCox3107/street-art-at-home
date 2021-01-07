@@ -1,12 +1,10 @@
----
-
 <a name="top"></a>
 <div align="center">
 <img src="static/favicon/favicon.ico" width="200">
 </div>
 
 <div align="center">
-<h1 style="color: #adb993"> street art @ home </h1>
+<h1> street art @ home </h1>
 </div>
 
 ---
@@ -14,8 +12,6 @@
 <div align="center">
 <img src="media/devicemockup.png" width="800">
 </div>
-
----
 
 ## Links
 
