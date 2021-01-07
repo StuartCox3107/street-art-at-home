@@ -320,15 +320,12 @@ Tested against [User Stories](#userstories)
 - Choose a relevant and unique app name
 - Add Heroku Postgres as an add-on
 - In the Config Vars add the relevant variables for:
-    <details>
-    <summary markdown="span">Click to expand</summary>
     - SECRET_KEY
     - STRIPE_PUBLIC_KEY
     - STRIPE_WH_KEY
     - DATABASE_URL
     - USE_AWS (set to True)
     - DISABLE_COLLECT_STATIC, set to 1 (In this case as I uploaded static and media files manually)
-    </details>
 - Freeze the requirements in the terminal by typing
 'pip3 freeze > requirements.txt'
 - Create a Procfile and save the below code into item<br>
@@ -344,6 +341,8 @@ DATABASES = {
 `python3 manage.py createsuperuser`
 - Revert back to the original setup in settings.py
 - Add the below code in an if statement<br>
+<details>
+<summary markdown="span">Click to expand</summary>
 ```
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
@@ -357,6 +356,7 @@ else:
         }
     }
 ```
+</summary>
 - Add the app name to ALLOWED_HOSTS in settings.py
 - To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
 
