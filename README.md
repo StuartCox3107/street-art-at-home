@@ -1,10 +1,6 @@
-<a name="top"></a>
-<div align="center">
-<img src="media/devicemockup.png" width="800">
-</div>
-
 ---
 
+<a name="top"></a>
 <div align="center">
 <img src="static/favicon/favicon.ico" width="200">
 </div>
@@ -14,6 +10,13 @@
 </div>
 
 ---
+
+<div align="center">
+<img src="media/devicemockup.png" width="800">
+</div>
+
+---
+
 ## Links
 
 ### :dart: [Aim of the site](#aim)
