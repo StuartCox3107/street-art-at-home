@@ -331,7 +331,7 @@ Tested against [User Stories](#userstories)
 - Create a Procfile and save the below code into item<br>
 `web: gunicorn street_art_at_home.wsgi:application`
 - To set the database so it works with Postgres comment out the current database settings and add the below code to settings.py<br>
-```
+``` python
 DATABASES = {
     'default': dj_database_url.parse(database_url_from_heroku_config_vars)
     }
@@ -401,7 +401,7 @@ else:
 - Also add 'storages' to the installed apps in settings.py
 - Add the 2 AWS keys to the config vars in the Heroku config vars
 - Add the below if statement to settings.py to check that USE_AWS is set to true<br>
-```
+``` python
 if 'USE_AWS' in os.environ:
     AWS_STORAGE_BUCKET_NAME = 'street-art-at-home'
     AWS_S3_REGION_NAME = 'eu-west-2'
