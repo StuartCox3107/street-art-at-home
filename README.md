@@ -341,7 +341,7 @@ DATABASES = {
 `python3 manage.py createsuperuser`
 - Revert back to the original setup in settings.py
 - Add the below code in an if statement<br>
-```
+``` python
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
@@ -354,7 +354,6 @@ else:
         }
     }
 ```
-{: .language-python}
 - Add the app name to ALLOWED_HOSTS in settings.py
 - To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
 
