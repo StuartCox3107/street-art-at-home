@@ -5,8 +5,12 @@
 
 ---
 
-# street art @ home <div align="left">
+<div align="center">
 <img src="static/favicon/favicon.ico" width="200">
+</div>
+
+<div align="center">
+<h1> street art @ home </h1>
 </div>
 
 ---
@@ -236,6 +240,8 @@ Consisting of 4 subsets;
 - [Cursor.cc](https://www.cursor.cc/) used to generate graffiti spray can cursor, opens in same tab, press back to return
 - [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
 - [AWS](https://aws.amazon.com/) used to store static and media files
+- [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
+- 
 
 
 ### :arrow_up:[Top of page](#top)
