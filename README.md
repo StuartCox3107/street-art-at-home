@@ -417,7 +417,7 @@ if 'USE_AWS' in os.environ:
 
 - Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however and I took the decision to leave as is.
 
-### :arrow_up:[Top of page](#top)
+### [:arrow_up:Top of page](#top)
 ---
 <a name="credits"></a>
 
