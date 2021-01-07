@@ -363,7 +363,7 @@ else:
 - Search for S3 and create a new bucket, give this bucket the same name as the Heroku app
 - Unblock public access and finish creating the bucket
 - In the permissions tab, edit cross origin resource sharing (CORS) and paste the below in<br>
-```
+``` python
 [
   {
       "AllowedHeaders": [
