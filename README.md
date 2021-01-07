@@ -25,7 +25,7 @@
 - [Screen-size testing](#screen)
 ### :computer: [Deployment](#deploy)
 ### :ant: [Issues & bugs](#issues)
-### :clap [Credits & acknowledgements](#credits)
+### :clap: [Credits & acknowledgements](#credits)
 
 ---
 <a name="aim"></a>
