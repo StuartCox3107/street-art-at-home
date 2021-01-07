@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1> street art @ home </h1>
+<h1> [street art @ home] </h1>
 </div>
 
 ---
