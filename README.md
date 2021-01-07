@@ -10,22 +10,22 @@
 ---
 ## Links
 
-### [Aim of the site](#aim)
-### [User stories](#userstories)
-### [Site plan](#plan) and [Features/Wireframes](#features)
-### [Theme & typography](#theme)
-### [Database features & design](#database)
-### [Features left to implement](#left)
-### [Technologies used](#tech)
-### [Testing](#testingsection)
+### :dart: [Aim of the site](#aim)
+### :woman: [User stories](#userstories)
+### :compass: [Site plan](#plan) and [Features/Wireframes](#features)
+### :art: [Theme & typography](#theme)
+### :floppy_disk: [Database features & design](#database)
+### :lock: [Features left to implement](#left)
+### :bulb: [Technologies used](#tech)
+### :goggles: [Testing](#testingsection)
 - [Code testing](#code)
 - [Manual testing](#manual)
 - [User story testing](#usertesting)
 - [Further testing](#further)
 - [Screen-size testing](#screen)
-### [Deployment](#deploy)
-### [Issues & bugs](#issues)
-### [Credits & acknowledgements](#credits)
+### :computer: [Deployment](#deploy)
+### :ant: [Issues & bugs](#issues)
+### :clap [Credits & acknowledgements](#credits)
 
 ---
 <a name="aim"></a>
@@ -203,7 +203,7 @@ Consisting of 4 subsets;
 - Image- Article image
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="left"></a>
 
