@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<h1> [street art @ home](#) </h1>
+<h1>street art @ home</h1>
 </div>
 
 ---
@@ -46,7 +46,7 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 
 <a name="userstories"></a>
 
-## :woman: User Stories 
+## :woman: [User Stories](#) 
 
 | As a | I want to be able to | So that I can |
 | --- | --- | --- |
