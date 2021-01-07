@@ -5,7 +5,7 @@
 
 ---
 
-# Street Art @ Home 
+# street art @ home 
 
 ---
 ## Links
@@ -36,7 +36,7 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 
 ## [Link to live site](https://street-art-at-home.herokuapp.com/) opens in same tab, click back if needed
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 
 <a name="userstories"></a>
 
@@ -65,7 +65,7 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 | Shopper | View an order confirmation post checkout | So I am assured in knowing the items purchased are the ones I wanted |
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 ## :compass: Site plan, features & wireframes
 
@@ -151,7 +151,7 @@ A simple page with images and detail of added blog items related to the subject 
 
 A page giving an overview of our favourite cities in terms of street art.
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="theme"></a>
 
@@ -163,7 +163,7 @@ Colours are designed to be largely soft and pastel like but with the option for 
 <img src="media/projectcolours.png" width="500">
 </div>
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 
 <a name="database"></a>
 
@@ -175,32 +175,32 @@ Data is stored in three models;
 
 ***Consisting of 6 subsets;***
 
-1: Sku- Numerical identifier,
-2: Name- Product name,
-3: City- City located in,
-4: Description- Overview of product,
-5: Price_l: Price in GBP,
-6: Image: Image of piece
+- Sku- Numerical identifier,
+- Name- Product name,
+- City- City located in,
+- Description- Overview of product,
+- Price_l: Price in GBP,
+- Image: Image of piece
 
 **Blogentries**
 
 Consisting of 6 subsets;
 
-1: Blogid- Numerical identifier,
-2: Blogposter- Name of poster,
-3: Blogdate- Date of blog posting,
-4: Blogtitle- Heading of blog,
-5: Blogtext- Main text of blog article,
-6: Blogimage- Article image
+- Blogid- Numerical identifier,
+- Blogposter- Name of poster,
+- Blogdate- Date of blog posting,
+- Blogtitle- Heading of blog,
+- Blogtext- Main text of blog article,
+- Blogimage- Article image
 
 **Citiesentries**
 
 Consisting of 4 subsets;
 
-1: Citiesid- Numerical identifier,
-2: Citiestitle- Title of entry (city),
-3: Citiestext- Main text of cities article,
-4: Image- Article image
+- Citiesid- Numerical identifier,
+- Citiestitle- Title of entry (city),
+- Citiestext- Main text of cities article,
+- Image- Article image
 
 
 ### [Top of page](#top)
@@ -211,7 +211,7 @@ Consisting of 4 subsets;
 
 - In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. I would also add email functionality to both the user login process and order confirmation process.
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="tech"></a>
 
@@ -235,7 +235,7 @@ Consisting of 4 subsets;
 - Stripe
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="testingsection"></a>
 
@@ -298,7 +298,7 @@ Tested against [User Stories](#userstories)
 
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="deploy"></a>
 
@@ -402,7 +402,7 @@ if 'USE_AWS' in os.environ:
 ```
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="issues"></a>
 
@@ -417,7 +417,7 @@ if 'USE_AWS' in os.environ:
 
 - Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however and I took the decision to leave as is.
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
 <a name="credits"></a>
 
@@ -429,5 +429,5 @@ if 'USE_AWS' in os.environ:
 
 
 
-### [Top of page](#top)
+### :arrow_up:[Top of page](#top)
 ---
