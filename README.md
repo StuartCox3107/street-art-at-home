@@ -83,7 +83,7 @@ Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click 
 
 ### Landing page
 
-[Desktop Wireframe](wireframes/homedesktop.png) / 
+[Desktop Wireframe](wireframes/homedesktop.png) <sub><sup> or </sup></sub> 
 [Mobile Wireframe](wireframes/homemobile.png)
 
 Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, a Cities area, the shopping basket and user account area. Also, on all views their will be a product search bar present.
@@ -92,42 +92,42 @@ The concept of the search bar is to drive users towards the commercial aspects o
 
 ### All products
 
-[Desktop Wireframe](wireframes/all_productsdesktop.png) / 
+[Desktop Wireframe](wireframes/all_productsdesktop.png) <sub><sup> or </sup></sub> 
 [Mobile Wireframe](wireframes/all_productsmobile.png)
 
 A page showing every product that can be purchased (image, title, price), and a "back to top icon".
 
 ### One product
 
-[Desktop Wireframe](wireframes/one_productdesktop.png) /
+[Desktop Wireframe](wireframes/one_productdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/one_productmobile.png)
 
 A page showing an individual product, chosen from the all_products view with a description of all fields, the ability to plus or minus the quantity to order and buttons to give the user the ability to continue shopping or add the relevant number of items to the basket.
 
 ### Sign up
 
-[Desktop Wireframe](wireframes/signupdesktop.png) /
+[Desktop Wireframe](wireframes/signupdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/signupmobile.png)
 
 A page giving the user the ability to be able to create an account using their personal detail with buttons to sign-in/submit or navigate to the login page if they realise that they do actually have an account already.
 
 ### Sign in
 
-[Desktop Wireframe](wireframes/logindesktop.png) /
+[Desktop Wireframe](wireframes/logindesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/loginmobile.png)
 
 A simple page giving the user the ability to enter their username and password that they have to login to their account. Home and Sign-in (process) buttons to be present.
 
 ### Profile
 
-[Desktop Wireframe](wireframes/myaccountdesktop.png) /
+[Desktop Wireframe](wireframes/myaccountdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/myaccountmobile.png)
 
 A simple page giving the user the ability to view their profile details and update if required.
 
 ### Basket
 
-[Desktop Wireframe](wireframes/bagdesktop.png) /
+[Desktop Wireframe](wireframes/bagdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/bagmobile.png)
 
 A page showing an image of all items ordered as well as a breakdown of item price and total price. Buttons giving the ability to continue shopping or to go to the checkout app if the user has finished shopping.
@@ -141,14 +141,14 @@ A page giving the user the ability to review and purchase all chosen items in th
 
 ### Blog
 
-[Desktop Wireframe](wireframes/blogdesktop.png) /
+[Desktop Wireframe](wireframes/blogdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/blogmobile.png)
 
 A simple page with images and detail of added blog items related to the subject areas and designed to showcase the cutting edge.
 
 ### Cities
 
-[Desktop Wireframe](wireframes/citiesdesktop.png) /
+[Desktop Wireframe](wireframes/citiesdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/citiesmobile.png)
 
 A page giving an overview of our favourite cities in terms of street art.
