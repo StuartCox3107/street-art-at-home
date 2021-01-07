@@ -304,7 +304,7 @@ Tested against [User Stories](#userstories)
 
 ## :computer: Deployment
 
-To deploy to Heroku:
+### To deploy to Heroku:
 
 - Sign in to [Heroku dashboard](https://dashboard.heroku.com/apps)
 - Create a new app by clicking `Create new app` in the `New` dropdown box
@@ -316,8 +316,6 @@ To deploy to Heroku:
     - STRIPE_WH_KEY
     - DATABASE_URL
     - USE_AWS (set to True)
-    - AWS_ACCESS_KEY
-    - AWS_SECRET_ACCESS_KEY
     - DISABLE_COLLECT_STATIC, set to 1 (In this case as I uploaded static and media files manually)
 - Freeze the requirements in the terminal by typing
 'pip3 freeze > requirements.txt'
@@ -349,6 +347,58 @@ else:
 ```
 - Add the app name to ALLOWED_HOSTS in settings.py
 - To make it easier, set Heroku to deploy automatically when code is pushed to GitHub
+
+### Amazon Web Services
+
+- Go to [AWS](https://aws.amazon.com/)
+- Search for S3 and create a new bucket, give this bucket the same name as the Heroku app
+- Unblock public access and finish creating the bucket
+- In the permissions tab, edit cross origin resource sharing (CORS) and paste the below in<br>
+```
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+```
+- Select `Policy Generator` to create a new security Policy
+- Select S3 Bucket Policy as the type of policy and add a * to principle
+- Set the Action to Get Object and paste in the ARN (Amazon Resource Name)
+- Click `Add Statement`, then `Generate Policy`
+- Copy the policy and paste it into the bucket policy editor
+- Make sure a * is added to the end of the `Resource` value to allow access to all resources in the bucket
+- In the ACL (Access Control List), set list object permissions for everyone
+- Open IAM (Identity and Access Management) and create a group giving it a name
+- Go the the `Policies` tab and choose `Create Policy`
+- Select `Import Managed Policy` from the JSON tab, search for S3 and import `S3 Full Access Policy`
+- Back on S3, copy the ARN and paste this twice in to the Resource item. The second arn line should have a /* on the end like the below
+`"arn:aws:s3:::bucket/*"`
+- Click `Review Policy`, name it and give it a decription before clicking `Create Policy`
+- Search for the policy created and click `Attach Policy`
+- Then create a user from the `User` tab by clicking `Add User`
+- Give the user a name and allow the user programmatic access
+- Add the user to the group, click `end` until done 
+- Download the CSV file which will contain the access keys, be sure to save the file as it can only be downloaded once
+- For Django to connect to S3, install boto3 and django-storages
+- Also add 'storages' to the installed apps in settings.py
+- Add the 2 AWS keys to the config vars in the Heroku config vars
+- Add the below if statement to settings.py to check that USE_AWS is set to true<br>
+```
+AWS_STORAGE_BUCKET_NAME = 'street-art-at-home'
+AWS_S3_REGION_NAME = 'eu-west-2'
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+```
 
 
 ### [Top of page](#top)
