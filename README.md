@@ -225,7 +225,7 @@ Consisting of 4 subsets;
 - [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
 - [GitHub](https://github.com/) To host the repositories for this project, opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
-- [Django](https://www.djangoproject.com/) as the database storemain framework used, opens in same tab, press back to return
+- [Django](https://www.djangoproject.com/) used as the framework to create the app and the template language
 - [Coolors](https://coolors.co/) used for colour palette, opens in same tab, press back to return
 - [Bootstrap](https://getbootstrap.com/) front-end framework used, opens in same tab, press back to return
 - [Hover.css](https://ianlunn.github.io/Hover/) used to add button hover effect , opens in same tab, press back to return
@@ -234,7 +234,8 @@ Consisting of 4 subsets;
 - [Flaticon.com](http://www.freepik.com) used for spray can favicon, opens in same tab, press back to return
 - [Dreamtimes.com](https://www.dreamstime.com/) used for graffiti man image, opens in same tab, press back to return
 - [Cursor.cc](https://www.cursor.cc/) used to generate graffiti spray can cursor, opens in same tab, press back to return
-- Stripe
+- [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
+- [AWS](https://aws.amazon.com/) used to store static and media files
 
 
 ### :arrow_up:[Top of page](#top)
