@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-<h1> street art @ home </h1>
+<h1 style="color: #adb993"> street art @ home </h1>
 </div>
 
 ---
