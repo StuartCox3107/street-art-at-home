@@ -410,6 +410,15 @@ if 'USE_AWS' in os.environ:
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 ```
 
+I had challenges in automating the upload of static and media files and took the decision to manually upload them, to do this I followed the below steps:
+
+- Download a ZIP file of the GitHub repository
+- Extract the files from the ZIP
+- Create 2 folders in the AWS bucket, `static` and `media`
+- Upload all the static files from the unzipped folder into the static folder in AWS
+- Copy everything from the IDE `media` folder into the AWS folder `media`
+- Heroku will now have access and be able to use the static and media folders from AWS
+
 
 ### :arrow_up:[Top of page](#top)
 ---
