@@ -91,16 +91,16 @@ Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click 
 [Desktop Wireframe](wireframes/homedesktop.png) <sub><sup> or </sup></sub> 
 [Mobile Wireframe](wireframes/homemobile.png)
 
-Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, a Cities area, the shopping basket and user account area. Also, on all views their will be a product search bar present.
+Designed to be simple, clean and give a main image with clear links to the possibility to be able to shop as well as a description of what the site is for. This, and all other pages will have a header with a logo and navbar links to the shop, a blog, a Cities area, the shopping basket and user account area. Also, on all views there will be a product search bar present. On smaller screens this search functionality will be achieved through a icon with a dropdown search box.
 
-The concept of the search bar is to drive users towards the commercial aspects of the site and will search product titles and description only (eg, not blog and cities entries). 
+The concept of the search bar is to drive users towards the commercial aspects of the site, and will search product titles and description only (eg, not blog and cities entries). 
 
 ### All products
 
 [Desktop Wireframe](wireframes/all_productsdesktop.png) <sub><sup> or </sup></sub> 
 [Mobile Wireframe](wireframes/all_productsmobile.png)
 
-A page showing every product that can be purchased (image, title, price), and a "back to top icon".
+A page showing every product that can be purchased (image, title, price), and a "back to top" icon.
 
 ### One product
 
@@ -114,7 +114,7 @@ A page showing an individual product, chosen from the all_products view with a d
 [Desktop Wireframe](wireframes/signupdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/signupmobile.png)
 
-A page giving the user the ability to be able to create an account using their personal detail with buttons to sign-in/submit or navigate to the login page if they realise that they do actually have an account already.
+A page giving the user the ability to be able to create an account using their personal detail, with buttons to submit & sign-in, or navigate to the login page if they realise that they do actually have an account already.
 
 ### Sign in
 
@@ -149,7 +149,7 @@ A page giving the user the ability to review and purchase all chosen items in th
 [Desktop Wireframe](wireframes/blogdesktop.png) <sub><sup> or </sup></sub>
 [Mobile Wireframe](wireframes/blogmobile.png)
 
-A simple page with images and detail of added blog items related to the subject areas and designed to showcase the cutting edge.
+A simple page with images and detail of added blog items related to the subject areas and designed to showcase trends & events.
 
 ### Cities
 
@@ -176,7 +176,7 @@ Colours are designed to be largely soft and pastel like but with the option for 
 
 ## :floppy_disk: Database features/design
 
-Data is stored in three models;
+As well as the user information, data is stored in three models;
 
 **Products**
 
@@ -191,7 +191,7 @@ Data is stored in three models;
 
 **Blogentries**
 
-Consisting of 6 subsets;
+***Consisting of 6 subsets;***
 
 - Blogid- Numerical identifier,
 - Blogposter- Name of poster,
@@ -202,7 +202,7 @@ Consisting of 6 subsets;
 
 **Citiesentries**
 
-Consisting of 4 subsets;
+***Consisting of 4 subsets;***
 
 - Citiesid- Numerical identifier,
 - Citiestitle- Title of entry (city),
