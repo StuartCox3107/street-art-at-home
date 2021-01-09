@@ -95,6 +95,8 @@ Designed to be simple, clean and give a main image with clear links to the possi
 
 The concept of the search bar is to drive users towards the commercial aspects of the site, and will search product titles and description only (eg, not blog and cities entries). 
 
+A footer will appear on the home page only to avoid cluttering other pages.
+
 ### All products
 
 [Desktop Wireframe](wireframes/all_productsdesktop.png) <sub><sup> or </sup></sub> 
@@ -216,7 +218,9 @@ As well as the user information, data is stored in three models;
 
 ## :lock: Features left to implement
 
-- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. I would also add email functionality to both the user login process and order confirmation process.
+- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. 
+- I would also add email functionality to both the user login process and order confirmation process.
+- To develop the site further it would be useful to add the option for users to be able to sign in with their social media or other accounts.
 
 ### :arrow_up:[Top of page](#top)
 ---
@@ -228,7 +232,8 @@ As well as the user information, data is stored in three models;
 - [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
 - [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return
 - [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
-- [GitHub](https://github.com/) To host the repositories for this project, opens in same tab, press back to return
+- [GitHub](https://github.com/) to host the repositories for this project, opens in same tab, press back to return
+- [Git](https://git-scm.com/) for version control, , opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
 - [Django](https://www.djangoproject.com/) used as the framework to create the app and the template language
 - [Coolors](https://coolors.co/) used for colour palette, opens in same tab, press back to return
@@ -242,7 +247,6 @@ As well as the user information, data is stored in three models;
 - [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
 - [AWS](https://aws.amazon.com/) used to store static and media files
 - [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
-- 
 
 
 ### :arrow_up:[Top of page](#top)
@@ -267,6 +271,95 @@ As well as the user information, data is stored in three models;
 
 ### Manual Testing
 
+#### Home page
+
+The below items are in the base.html files and apply to all pages. appearance cross-referenced against the [site features](#features) section above.
+
+- Tested the logo to check that the home page is rendered
+- Tested the `Home` link on the navbar to check that the home page is rendered
+- Tested the `Shop` link on the navbar to check that the /products page is rendered
+- Tested the `Blog` link on the navbar to check that the /blog page is rendered
+- Tested the `Cities` link on the navbar to check that the /cities page is rendered
+- Tested the search box from all views to check that the relevant products are displayed when the word searched is in the product title or product description
+- Tested the search box to check that no items are displayed when the word searched does not exist in the product title or product description
+- Tested the `My Account` link on the navbar to check that the correct dropdowns display dependent on whether the user is logged in or not
+- Tested all dropdown options coming from `My Account` being clicked to check that the correct page is displayed or action
+- Tested the shopping basket icon to check that the /bag page is rendered
+
+Specific to the home page.
+
+- Tested the `Home` link in the footer to check that the home page is rendered
+- Tested the `Shop` link in the footer to check that the /products page is rendered
+- Tested the `Blog` link in the footer to check that the /blog page is rendered
+- Tested the `Cities` link in the footer to check that the /cities page is rendered
+- Tested the social media icons to check that the relevant social media home page is rendered and opens in another tab
+- Tested the `SHOP NOW` button to check that the /products page is rendered
+
+### All products page
+
+- Tested to check that all products in the database are displayed correctly (image, title and size)
+- Tested to check that a user click on all individual images displays the relevant /products/<product_id> page
+- Tested the back to top icon brings the user back to the top of the page
+
+### One product page
+
+- Tested to check that the relevant image, title, price and description are displayed
+- Tested to check that the `KEEP SHOPPING` button brings the user back to the /products page
+- Tested the increment buttons increment up and down correctly and only operate within the range 0-99 as desired
+- Tested the `ADD TO BAG` button to check that the product is added to the shopping bag when clicked and the relevant toast displays
+
+### Sign Up/Register page
+
+- Tested to check that the dropdown link to `Register` renders the correct /accounts/signup page
+- Tested to check that the `Sign in` link renders the correct /accounts/login page
+- Tested the form validation to check that the email section must be an email, the password must be a valid one and match and that a check is performed to check whether the email exists already in the database
+- Tested the `BACK TO LOGIN` button to check that the correct page is rendered
+- Tested the `SIGN UP` button successfully registers a new user if the form passes validation and the relevant toast is displayed advising the user of the successful registration and the home page is then rendered
+
+### Sign in page
+
+- Tested to check that the `HOME` button renders the home page when clicked
+- Tested the user is signed in if a valid username and password are entered, a toast is displayed and the home page is rendered
+- Tested an error message is displayed if the user types in incorrect information for either the username and/or password
+
+### Profile page
+
+- Tested to check that the relevant user information in stored and displayed
+- Tested to check that the correct user order history is displayed
+- Tested to check that the `UPDATE INFORMATION` updates the profile when clicked and a toast is displayed advising the user of the successful change
+- Tested to check that when a user clicks on a particular order that the order information is displayed as well as a toast advising the user that this is a past order
+- Tested to check that `BACK TO PROFILE` button on the above rendered page renders the /profile page
+
+### Basket
+
+- Tested to check that the correct view and information is rendered if no items are in the basket and a (tested and working) button is present to bring the user to the /products page
+- Tested to check that the correct items are displayed and the price and amount ordered is correct
+- Total amount tested to check that the bag s adding all products and calculating correctly
+- Tested to check that the user name is displayed if the user is logged in and if not, then a "Shop as a guest" message is displayed
+- Tested the `KEEP SHOPPING` button renders the correct /products page when clicked
+- Tested the `SECURE CHECKOUT` button renders the /checkout.html page
+- Tested the increment buttons increment up and down correctly and only operate within the range 0-99 as desired
+- Tested the `Update` button saves the basket as the new amount when clicked
+
+### Checkout
+
+- Tested to check that the correct order is rendered as a summary
+- Tested to check that if the user is not logged in, then they are advised that they are about to check out as a guest and given the (working) option of being able to create an account
+- Tested to check that if the user is logged in then the order form is pre-populated with any stored profile information
+- Tested the `Save this to my profile` checkbox works and updates the profile if there are any changes made when finally placing the order
+- Tested to check that the `Adjust bag` button renders the /bag page
+- Tested the form validation on the required fields to check that this information is present when the `Complete Order` button is clicked
+- Tested the Stripe functionality works and when the valid test card number is used then the user is given an order summary and a toast showing their order has been made
+
+### Blog
+
+- Tested to check that all images, posting person, posting date, title and summary are correctly displayed
+- Tested the back to top icon brings the user back to the top of the page 
+
+### Cities
+
+- Tested to check that all images, title and summary are correctly displayed
+- Tested the back to top icon brings the user back to the top of the page 
 
 <a name="usertesting"></a>
 
@@ -306,7 +399,9 @@ Tested against [User Stories](#userstories)
 
 ### Screen size Testing
 
+- Using Chrome dev tools tested all features on;
 
+Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Surface Duo, Galaxy fold
 
 ### :arrow_up:[Top of page](#top)
 ---
