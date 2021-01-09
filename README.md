@@ -38,7 +38,7 @@
 
 ## :dart: Aim of the site
 
-Street art @ home is designed for a fictional company, and designed to showcase and sell prints on canvas of photographs of graffiti and street-art for buyers to put on walls at home. The precise details of the artwork location and artist is indicative rather than 100% true.
+Street art @ home is designed for a fictional company, designed to showcase and sell prints on canvas of photographs of graffiti and street-art, for buyers to put on walls at home. The precise details of the artwork location and artist is indicative rather than 100% true.
 
 ## [Link to live site](https://street-art-at-home.herokuapp.com/) opens in same tab, click back if needed
 
@@ -50,9 +50,9 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 
 | As a | I want to be able to | So that I can |
 | --- | --- | --- |
-| Shopper | View products | Choose ones to buy |
+| Shopper | View all products | Choose the ones I like |
 | Shopper | View individual products | View detail on individual products |
-| Shopper | Check out interesting new street art | Have access to cutting edge |
+| Shopper | Check out interesting new street art | Have access to new trends |
 | Shopper | View my shopping bag | Know what I am spending |
 | |
 | Site user | Know what the site is about at first glance | Check immediately whether this is the site for me |
@@ -70,6 +70,7 @@ Street art @ home is designed for a fictional company, and designed to showcase 
 | Shopper | Easily enter payment information | Buy the items in my final choice |
 | Shopper | View an order confirmation post checkout | So I am assured in knowing the items purchased are the ones I wanted |
 
+[See here for user story testing](#usertesting)
 
 ### :arrow_up:[Top of page](#top)
 ---
