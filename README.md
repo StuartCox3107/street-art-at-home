@@ -394,10 +394,10 @@ Tested against [User Stories](#userstories)
 
 ### Further testing
 
-Mobile friendly test: Site reports as "Mobile friendly" when using [Mobile-friendly](https://search.google.com/test/mobile-friendly)
+- Mobile friendly test: Site reports as "Mobile friendly" when using [Mobile-friendly](https://search.google.com/test/mobile-friendly)
 
 <div align="center">
-<img src="media/mobilefriendly" width="250">
+<img src="media/mobilefriendly.png" width="250">
 </div>
 
 - Tested on various browsers: Edge, Chrome, Firefox, Internet Explorer
