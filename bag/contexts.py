@@ -1,6 +1,6 @@
-from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
+
 
 def bag_contents(request):
     """ handler showing bag contents """
@@ -18,7 +18,7 @@ def bag_contents(request):
             'quantity': quantity,
             'product': product,
         })
-    
+
     context = {
         'bag_items': bag_items,
         'total': total,

@@ -1,19 +1,19 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 
 from products.models import Product
 
-# Create your views here.
 
 def view_bag(request):
     """ A view to return the shopping bag page """
 
     return render(request, 'bag/bag.html')
 
+
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag 
+    """ Add a quantity of the specified product to the bag
     Args:
-        request: HTTP request 
+        request: HTTP request
         item_id: Finds the correct chosen item
     Returns:
         Changes the quantity of the item in the shopping bag"""
@@ -33,13 +33,16 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
 
+
 def adjust_bag(request, item_id):
-    """adjust the quantity of the specified product to the specified amount
-    Args: 
-        request: HTTP request 
+    """ adjust the quantity of the specified product to the specified amount
+    Args:
+        request: HTTP request
         item_id: Finds the correct chosen item
     Returns:
-        If number is adjusted to zero the item is removed from the bag when the update button is clicked, otherwise number in cart is adjusted
+        If number is adjusted to zero the item is removed
+        from the bag when the update button is clicked,
+        otherwise number in cart is adjusted
     """
 
     product = get_object_or_404(Product, pk=item_id)
@@ -54,6 +57,7 @@ def adjust_bag(request, item_id):
         messages.success(request, f'Removed {product.name} from bag')
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
 
 def handler404(request, exception):
     """ Handler for 404 errors

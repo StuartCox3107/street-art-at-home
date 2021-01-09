@@ -260,11 +260,18 @@ As well as the user information, data is stored in three models;
 
 - **HTML:** All tested with [W3S HTML Validation Service](https://validator.w3.org/), checked by rendering each page in the browser and right clicking and viewing ```Page source``` to ensure code being rendered excludes the templating language
 
-- **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
+- **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors found
 
-- **Javascript:** scripts.js tested with [JSLint](https://jslint.com/)
+- **Javascript:** scripts.js tested with [JSLint](https://jslint.com/), no errors found
 
-- **Python:** Code tested with pylint:
+- **Python:** Code tested by typing `python3 -m flake8` to test all .py files
+    
+All issues have been corrected except for the below exceptions;
+
+- Errors that were automatically generated (the init files, migration files, Django setup files etc). This constitutes the majority of issues
+- Some E501 errors remain as the lines cannot be shortened
+- Some E128 errors remain as the flake8 check would need them for be indented far too much in to pass and would not be user friendly
+- Some DJ01 errors remain as this setting should be present
 
 
 <a name="manual"></a>

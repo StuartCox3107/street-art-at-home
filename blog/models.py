@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Blogentry(models.Model):
 
     class Meta:
