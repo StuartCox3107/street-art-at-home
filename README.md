@@ -262,7 +262,7 @@ As well as the user information, data is stored in three models;
 
 - **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors found
 
-- **Javascript:** scripts.js tested with [JSLint](https://jslint.com/), no errors found
+- **Javascript:** all JS tested with [JSLint](https://jslint.com/), no errors found
 
 - **Python:** Code tested by typing `python3 -m flake8` to test all .py files
     
@@ -554,6 +554,10 @@ I had challenges in automating the upload of static and media files and took the
 - Template for footer taken from [colorlib.com](https://codepen.io/hasib_technobari/pen/QmNxwy) and style customised for own site
 
 - As always, the advice and support from my mentor Rohit 
+
+- The Code Institute Boutique Ado project walkthrough was vital in assisting me in this process
+
+- As always, so much research and troubleshooting was gained by extensive use of [StackOverflow](https://stackoverflow.com/)
 
 
 
