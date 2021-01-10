@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.views.decorators.http import require_POST
 
 from products.models import Product
 
@@ -62,7 +63,6 @@ def adjust_bag(request, item_id):
         messages.success(request, f'Removed {product.name} from bag')
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
-
 
 def handler404(request, exception):
     """ Handler for 404 errors
