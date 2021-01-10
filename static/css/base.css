@@ -346,6 +346,9 @@ button.primaryAction:focus {
     .mobilenav {
         font-size: 0.5rem;
     }
+    .message-container {
+        display: none;
+    }
 }
 
 
@@ -354,6 +357,12 @@ button.primaryAction:focus {
 @media (max-width: 325px) {
     #mobile-search {
         display: none !important;
+    }
+    .ordernosml {
+        font-size: 0.7rem;
+    }
+    .order-history {
+        font-size: 0.7rem;
     }
 }
 
