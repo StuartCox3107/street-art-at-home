@@ -9,10 +9,15 @@ from checkout.models import Order
 
 def profile(request):
     """ Display the user's profile
+
     Args:
         request: HTTP request
-    Returns: The profile of the user and updates the
-    profile if changes made """
+
+    Returns:
+        The profile of the user and updates the
+        profile if changes made
+    """
+
     profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == 'POST':
@@ -36,11 +41,15 @@ def profile(request):
 
 def order_history(request, order_number):
     """ Display the user order history
+
     Args:
         request: HTTP request object
         order_number: order number passed in
+
     Returns:
-        Order history of the user if logged in """
+        Order history of the user if logged in
+    """
+
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (

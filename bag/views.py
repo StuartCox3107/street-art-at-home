@@ -12,11 +12,14 @@ def view_bag(request):
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the bag
+
     Args:
         request: HTTP request
         item_id: Finds the correct chosen item
+
     Returns:
-        Changes the quantity of the item in the shopping bag"""
+        Changes the quantity of the item in the shopping bag
+"""
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -35,10 +38,12 @@ def add_to_bag(request, item_id):
 
 
 def adjust_bag(request, item_id):
-    """ adjust the quantity of the specified product to the specified amount
+    """ Adjust the quantity of the specified product to the specified amount
+
     Args:
         request: HTTP request
         item_id: Finds the correct chosen item
+
     Returns:
         If number is adjusted to zero the item is removed
         from the bag when the update button is clicked,
@@ -61,12 +66,15 @@ def adjust_bag(request, item_id):
 
 def handler404(request, exception):
     """ Handler for 404 errors
+
     Args:
         request: HTTP request object
         exception: exception raised
+
     Returns:
         Rendered 404 html
     """
+
     return render(request, '404.html', status=404)
 
 
@@ -77,4 +85,5 @@ def handler500(request):
     Returns:
         Rendered 500 html
     """
+
     return render(request, '500.html', status=500)

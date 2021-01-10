@@ -40,6 +40,8 @@
 
 Street art @ home is designed for a fictional company, designed to showcase and sell prints on canvas of photographs of graffiti and street-art, for buyers to put on walls at home. The precise details of the artwork location and artist is indicative rather than 100% true.
 
+To test the login and account functionality create any dummy user (eg test123@test.com). To check-out, use the card number 4242 4242 4242 4242, expiry of any future date and postcode of any 5 integers.
+
 ## [Link to live site](https://street-art-at-home.herokuapp.com/) opens in same tab, click back if needed
 
 ### :arrow_up:[Top of page](#top)

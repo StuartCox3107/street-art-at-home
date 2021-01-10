@@ -6,10 +6,13 @@ from .models import Product
 
 def all_products(request):
     """ A view to show all products, including sort & search
+
     Args:
         request: HTTP request
+
     Returns:
-        Shows all relevant products"""
+        Shows all relevant products
+    """
 
     products = Product.objects.all()
     query = None
@@ -35,11 +38,14 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to show chosen product
+
     Args:
         request: HTTP request
         product_id: finds the product chosen
+
     Returns:
-        The product detail page of the chosen item """
+        The product detail page of the chosen item
+    """
 
     product = get_object_or_404(Product, pk=product_id)
 
