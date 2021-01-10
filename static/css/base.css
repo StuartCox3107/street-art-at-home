@@ -159,6 +159,10 @@ a#allauthlink:hover {
     color: #ec71c9;
 }
 
+#notloggedin {
+    color: #adb993;
+}
+
 
 /* ------------------------------- bootstrap toasts */
 
