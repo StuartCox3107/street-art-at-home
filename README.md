@@ -258,8 +258,6 @@ As well as the user information, data is stored in three models;
 
 ### Code
 
-- **HTML:** All tested with [W3S HTML Validation Service](https://validator.w3.org/), checked by rendering each page in the browser and right clicking and viewing ```Page source``` to ensure code being rendered excludes the templating language
-
 - **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors found
 
 - **Javascript:** all JS tested with [JSLint](https://jslint.com/), no errors found
