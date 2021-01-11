@@ -82,7 +82,7 @@ To test the login and account functionality create any dummy user (eg test123@te
 
 ### Site plan
 
-Click [here](media/ms4siteplan.pdf) for the site plan, opens in same tab, click back if needed
+Click [here](readmeimages/ms4siteplan.pdf) for the site plan, opens in same tab, click back if needed
 
 <a name="features"></a>
 
@@ -171,7 +171,7 @@ A page giving an overview of our favourite cities in terms of street art.
 Colours are designed to be largely soft and pastel like but with the option for the addition of a bold pink colour where needed, and a dark grey to give emphasis, the below colour palette was generated using [coolors](https://coolors.co/)
 
 <div align="center">
-<img src="media/projectcolours.png" width="500">
+<img src="readmeimages/projectcolours.png" width="500">
 </div>
 
 ### :arrow_up:[Top of page](#top)
@@ -404,7 +404,7 @@ Tested against [User Stories](#userstories)
 - Mobile friendly test: Site reports as "Mobile friendly" when using [Mobile-friendly](https://search.google.com/test/mobile-friendly)
 
 <div align="center">
-<img src="media/mobilefriendly.png" width="250">
+<img src="readmeimages/mobilefriendly.png" width="250">
 </div>
 
 - Tested on various browsers: Edge, Chrome, Firefox, Internet Explorer
