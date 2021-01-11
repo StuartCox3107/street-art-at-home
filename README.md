@@ -162,6 +162,10 @@ A simple page with images and detail of added blog items related to the subject 
 
 A page giving an overview of our favourite cities in terms of street art.
 
+### 404 & 500 pages
+
+Just use the template used on all views, with a large button as well as the navbar to enable the user to be able to navigate to anywhere in the site. 
+
 ### :arrow_up:[Top of page](#top)
 ---
 <a name="theme"></a>
@@ -223,6 +227,7 @@ As well as the user information, data is stored in three models;
 - In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. 
 - I would also add email functionality to both the user login process and order confirmation process.
 - To develop the site further it would be useful to add the option for users to be able to sign in with their social media or other accounts.
+- Testing has been done manually and I would aim to do this programmatically to improve the site
 
 ### :arrow_up:[Top of page](#top)
 ---
