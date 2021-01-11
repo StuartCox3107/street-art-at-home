@@ -11,7 +11,7 @@
 ---
 
 <div align="center">
-<img src="media/devicemockup.png" width="600">
+<img src="readmeimages/devicemockup.png" width="600">
 </div>
 
 ## Links
