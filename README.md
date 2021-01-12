@@ -23,7 +23,7 @@
 ### :floppy_disk: [Database features & design](#database)
 ### :lock: [Features left to implement](#left)
 ### :bulb: [Technologies used](#tech)
-### :goggles: [Testing](#testingsection)
+### :test_tube: [Testing](#testingsection)
 - [Code testing](#code)
 - [Manual testing](#manual)
 - [User story testing](#usertesting)
@@ -172,7 +172,7 @@ Just use the template used on all views, with a large button as well as the navb
 
 ## :art: Theme & typography
 
-Colours are designed to be largely soft and pastel like but with the option for the addition of a bold pink colour where needed, and a dark grey to give emphasis, the below colour palette was generated using [coolors](https://coolors.co/)
+Colours are designed to be largely soft and pastel like, but with the option for the addition of a bold pink colour where needed, and a dark grey to give emphasis, the below colour palette was generated using [coolors](https://coolors.co/)
 
 <div align="center">
 <img src="readmeimages/projectcolours.png" width="500">
@@ -260,7 +260,7 @@ As well as the user information, data is stored in three models;
 ---
 <a name="testingsection"></a>
 
-## :goggles: Testing
+## :test_tube: Testing
 <a name="code"></a>
 
 ### Code
