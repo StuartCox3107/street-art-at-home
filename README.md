@@ -262,6 +262,11 @@ As well as the user information, data is stored in three models;
 
 ## :test_tube: Testing
 <a name="code"></a>
+- [Code testing](#code)
+- [Manual testing](#manual)
+- [User story testing](#usertesting)
+- [Further testing](#further)
+- [Screen-size testing](#screen)
 
 ### Code
 
