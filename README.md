@@ -46,6 +46,8 @@ To test the login and account functionality create any dummy user (eg test123@te
 
 ### :arrow_up:[Top of page](#top)
 
+---
+
 <a name="userstories"></a>
 
 ## :woman: User Stories
@@ -179,6 +181,8 @@ Colours are designed to be largely soft and pastel like, but with the option for
 </div>
 
 ### :arrow_up:[Top of page](#top)
+
+---
 
 <a name="database"></a>
 
