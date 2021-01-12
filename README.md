@@ -8,6 +8,7 @@
 <h1>street art @ home</h1>
 </div>
 
+https://img.shields.io/github/commit-activity/m/StuartCox3107/street_art_at_home?style=plastic
 ---
 
 <div align="center">
@@ -583,3 +584,5 @@ I had challenges in automating the upload of static and media files and took the
 
 ### :arrow_up:[Top of page](#top)
 ---
+
+
