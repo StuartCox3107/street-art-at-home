@@ -164,7 +164,7 @@ A page giving an overview of our favourite cities in terms of street art.
 
 ### 404 & 500 pages
 
-Just use the template used on all views, with a large button as well as the navbar to enable the user to be able to navigate to anywhere in the site. 
+Just uses the template used on all views, with a large button as well as the navbar to enable the user to be able to navigate to anywhere in the site. 
 
 ### :arrow_up:[Top of page](#top)
 ---
@@ -190,31 +190,31 @@ As well as the user information, data is stored in three models;
 
 ***Consisting of 6 subsets;***
 
-- Sku- Numerical identifier,
-- Name- Product name,
-- City- City located in,
-- Description- Overview of product,
-- Price_l: Price in GBP,
+- Sku- Numerical identifier
+- Name- Product name
+- City- City located in
+- Description- Overview of product
+- Price_l: Price in GBP
 - Image: Image of piece
 
 **Blogentries**
 
 ***Consisting of 6 subsets;***
 
-- Blogid- Numerical identifier,
-- Blogposter- Name of poster,
-- Blogdate- Date of blog posting,
-- Blogtitle- Heading of blog,
-- Blogtext- Main text of blog article,
+- Blogid- Numerical identifier
+- Blogposter- Name of poster
+- Blogdate- Date of blog posting
+- Blogtitle- Heading of blog
+- Blogtext- Main text of blog article
 - Blogimage- Article image
 
 **Citiesentries**
 
 ***Consisting of 4 subsets;***
 
-- Citiesid- Numerical identifier,
-- Citiestitle- Title of entry (city),
-- Citiestext- Main text of cities article,
+- Citiesid- Numerical identifier
+- Citiestitle- Title of entry (city)
+- Citiestext- Main text of cities article
 - Image- Article image
 
 
@@ -224,10 +224,10 @@ As well as the user information, data is stored in three models;
 
 ## :lock: Features left to implement
 
-- In the future I would like to add the option for users to be able to choose from various sized images or even custom ones. 
+- In the future and if this were a real business I would like to add the option for users to be able to choose from various sized images or even custom ones to order. 
 - I would also add email functionality to both the user login process and order confirmation process.
 - To develop the site further it would be useful to add the option for users to be able to sign in with their social media or other accounts.
-- Testing has been done manually and I would aim to do this programmatically to improve the site
+- Testing has been done manually and I would aim to do this programmatically.
 
 ### :arrow_up:[Top of page](#top)
 ---
@@ -255,6 +255,11 @@ As well as the user information, data is stored in three models;
 - [AWS](https://aws.amazon.com/) used to store static and media files
 - [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
 
+### Languages used breakdown
+
+<div align="center">
+<img src="readmeimages/languages.png" width="300">
+</div>
 
 ### :arrow_up:[Top of page](#top)
 ---
