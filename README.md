@@ -261,6 +261,8 @@ As well as the user information, data is stored in three models;
 <img src="readmeimages/languages.png" width="400">
 </div>
 
+<sub><sup> Final result may show a slight difference due to late or ongoing changes </sup></sub>
+
 ### :arrow_up:[Top of page](#top)
 ---
 <a name="testingsection"></a>
