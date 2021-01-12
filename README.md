@@ -553,7 +553,7 @@ I had challenges in automating the upload of static and media files and took the
 
 ### Open issues
 
-- Styling of the Django admin page. I have not been able to correct this and the Django admin page is very basic in looks. The functionality is 100% present however and I took the decision to leave as is.
+- Styling of the Django admin page. The Django in-built styling of the admin page comes from the ststic files. As the static files are not automatically uploading to AWS the admin page is unstyled. Still 100% functional so this has not been corrected.
 
 ### [:arrow_up:Top of page](#top)
 ---
