@@ -257,8 +257,8 @@ As well as the user information, data is stored in three models;
 
 ### Languages used breakdown
 
-<div align="center">
-<img src="readmeimages/languages.png" width="300">
+<div align="left">
+<img src="readmeimages/languages.png" width="400">
 </div>
 
 ### :arrow_up:[Top of page](#top)
