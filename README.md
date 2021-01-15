@@ -569,7 +569,7 @@ I had challenges in automating the upload of static and media files and took the
 
 ### Open issues
 
-- Styling of the Django admin page. The Django in-built styling of the admin page comes from the ststic files. As the static files are not automatically uploading to AWS the admin page is unstyled. Still 100% functional so this has not been corrected.
+- Styling of the Django admin page. The Django in-built styling of the admin page comes from the static files. As the static files are not automatically uploading to AWS the admin page is unstyled. Still 100% functional and this has not been corrected.
 
 ### [:arrow_up:Top of page](#top)
 ---
@@ -581,7 +581,7 @@ I had challenges in automating the upload of static and media files and took the
 
 - As always, the advice and support from my mentor Rohit 
 
-- The Code Institute Boutique Ado project walkthrough was vital in assisting me in this process
+- The Code Institute Boutique Ado project walk-through was vital in assisting me in this process
 
 - As always, so much research and troubleshooting was gained by extensive use of [StackOverflow](https://stackoverflow.com/)
 
