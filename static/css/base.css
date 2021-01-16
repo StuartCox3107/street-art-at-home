@@ -87,7 +87,8 @@ body {
     right: 10px;
 }
 
-.update-link {
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
