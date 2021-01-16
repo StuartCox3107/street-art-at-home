@@ -92,6 +92,14 @@ body {
     cursor: pointer;
 }
 
+.remove-item:hover {
+    color: #ec71c9 !important;
+}
+
+.remove-item {
+    color: #555555;
+}
+
 .btt-link {
     cursor: pointer;
     background-color: #adb993;
@@ -318,8 +326,10 @@ button.primaryAction:focus {
     .bringcontentdown {
         padding-top: 270px;
     }
+    .removedisplay {
+        display: none;
+    }
 }
-
 
 @media (max-width: 768px) {
     .smallprofile {

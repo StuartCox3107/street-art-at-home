@@ -566,6 +566,8 @@ I had challenges in automating the upload of static and media files and took the
 
 - I had issues in terms of the automatic upload of static and media files to AWS. To deal with this I opted for a manual upload to populate. In future, I would attempt to make this an automatic process.
 
+- On larger screens (+768) for some reason a second bag summary appeared. To deal with this I chose to use a CSS media query so that only one summary shows. 
+
 
 ### Open issues
 

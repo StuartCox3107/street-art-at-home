@@ -72,7 +72,7 @@ def remove_from_bag(request, item_id):
         item_id: Finds the correct chosen item
 
     Returns:
-        If the remove button is clicked the items are popped out of the bag"""
+        If the remove icon is clicked the items are popped out of the bag"""
 
     try:
         product = get_object_or_404(Product, pk=item_id)
@@ -81,7 +81,6 @@ def remove_from_bag(request, item_id):
 
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from bag')
-
         request.session['bag'] = bag
         return redirect(reverse('view_bag'))
 
