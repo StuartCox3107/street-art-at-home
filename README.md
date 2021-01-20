@@ -246,7 +246,7 @@ As well as the user information, data is stored in three models;
 ## :bulb: Technologies used
 
 - HTML, CSS, Javascript & Python languages
-- <img src="readmeimages/devicemockup.png" width="50" height="50">(https://fonts.google.com/) [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
+- <img src="readmeimages/google.png" width="30" height="30"> [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
 - [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return
 - [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
 - [GitHub](https://github.com/) to host the repositories for this project, opens in same tab, press back to return
