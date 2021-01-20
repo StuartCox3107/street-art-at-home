@@ -246,24 +246,24 @@ As well as the user information, data is stored in three models;
 ## :bulb: Technologies used
 
 - HTML, CSS, Javascript & Python languages
-- <img src="readmeimages/google.png" width="10" height="10"> [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
+- <img src="readmeimages/google.png" width="15" height="15"> [Google fonts](https://fonts.google.com/) for Poppins font used through all pages, opens in same tab, press back to return, opens in same tab, press back to return
 - [Font Meme](https://fontmeme.com/) for logo font, opens in same tab, press back to return
 - [Gitpod](https://www.gitpod.io/) IDE used to code, opens in same tab, press back to return
-- [GitHub](https://github.com/) to host the repositories for this project, opens in same tab, press back to return
+- <img src="readmeimages/gitpod.png" width="15" height="15"> [GitHub](https://github.com/) to host the repositories for this project, opens in same tab, press back to return
 - [Git](https://git-scm.com/) for version control, , opens in same tab, press back to return
 - [Balsamiq](https://balsamiq.com/) used to design wireframes, opens in same tab, press back to return
 - [Django](https://www.djangoproject.com/) used as the framework to create the app and the template language
 - [Coolors](https://coolors.co/) used for colour palette, opens in same tab, press back to return
-- [Bootstrap](https://getbootstrap.com/) front-end framework used, opens in same tab, press back to return
+- <img src="readmeimages/bootstrap.png" width="15" height="15"> [Bootstrap](https://getbootstrap.com/) front-end framework used, opens in same tab, press back to return
 - [Hover.css](https://ianlunn.github.io/Hover/) used to add button hover effect , opens in same tab, press back to return
 - [Tiny PNG](https://tinypng.com/) used to compress some images used, opens in same tab, press back to return
 - [Heroku](https://dashboard.heroku.com/apps) used to deploy project, opens in same tab, press back to return
 - [Flaticon.com](http://www.freepik.com) used for spray can favicon, opens in same tab, press back to return
 - [Dreamtimes.com](https://www.dreamstime.com/) used for graffiti man image, opens in same tab, press back to return
 - [Cursor.cc](https://www.cursor.cc/) used to generate graffiti spray can cursor, opens in same tab, press back to return
-- [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
-- [AWS](https://aws.amazon.com/) used to store static and media files
-- [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
+- <img src="readmeimages/stripe.png" width="15" height="15"> [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
+- <img src="readmeimages/aws.png" width="15" height="15"> [AWS](https://aws.amazon.com/) used to store static and media files
+- <img src="readmeimages/fontawesome.png" width="15" height="15"> [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
 
 ### Languages used breakdown
 
