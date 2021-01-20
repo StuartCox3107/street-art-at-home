@@ -373,6 +373,7 @@ Specific to the home page.
 - Tested the `SECURE CHECKOUT` button renders the /checkout.html page
 - Tested the increment buttons increment up and down correctly and only operate within the range 0-99 as desired
 - Tested the `Update` button saves the basket as the new amount when clicked
+- Tested the bin icon to check that all basket items of that product type are removed from the basket and the basket page shows remaining products or the `No items in basket` page
 
 ### Checkout
 
@@ -393,6 +394,15 @@ Specific to the home page.
 
 - Tested to check that all images, title and summary are correctly displayed
 - Tested the back to top icon brings the user back to the top of the page 
+
+### 404 page
+
+- Tested to check that 404 error page is rendered on this error
+
+### 500 page
+
+- Tested to check that 500 error page is rendered on this error
+
 
 <a name="usertesting"></a>
 

@@ -217,6 +217,7 @@ a#allauthlink:hover {
     right: 36px;
 }
 
+
 /* convenience classes - colors copied from Bootstrap */
 
 .arrow-success {
@@ -307,6 +308,7 @@ button.primaryAction:focus {
 @media (min-width: 992px) {
   .mobilelogo {
     visibility: hidden;
+    display: none;
   }
 }
 
@@ -442,6 +444,6 @@ button.primaryAction:focus {
 	transition: background 0.3s ease-in-out;
   background:#555555;
 }
-.footer-social-links a:hover{
+.footer-social-links a:hover {
 	background: #ec71c9;
 }
