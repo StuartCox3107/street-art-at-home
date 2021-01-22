@@ -264,6 +264,7 @@ As well as the user information, data is stored in three models;
 - <img src="readmeimages/stripe.png" width="25" height="25"> [Stripe](https://stripe.com/gb) used to process credit card transactions, opens in same tab, press back to return
 - <img src="readmeimages/aws.png" width="25" height="25"> [AWS](https://aws.amazon.com/) used to store static and media files
 - <img src="readmeimages/fontawesome.png" width="25" height="25"> [Fontawesome](https://fontawesome.com/) used for various icons across the site, opens in same tab, press back to return
+- [Animate.css](https://animate.style/#documentation) used for pulse animations on header & images, opens in same tab, press back to return
 
 ### Languages used breakdown
 
