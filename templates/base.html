@@ -17,6 +17,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
+        <link
+        rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
                     
     {% endblock %}
     {% block extra_css %}
@@ -37,10 +41,10 @@
 </head>
 
 <body>
-    <header class="container-fluid fixed-top">
+    <header class="container-fluid fixed-top animate__animated animate__pulse">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <!--logo-->
-        <div class="col-12 col-lg-5 my-auto">
+        <div class="col-12 col-lg-5 my-auto animate__animated animate__pulse">
             <a href="{% url 'home' %}" class="navbar-brand"><img class="img-fluid" src="{% static 'logo/logo.png' %}" alt="company logo"/></a>
         </div>
         <!--search box-->
