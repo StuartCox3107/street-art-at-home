@@ -287,9 +287,9 @@ As well as the user information, data is stored in three models;
 
 ### Code
 
-- **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors found
+- **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors remain
 
-- **Javascript:** all JS tested with [JSLint](https://jslint.com/), no errors found
+- **Javascript:** all JS tested with [JSLint](https://jslint.com/), no errors remain
 
 - **Python:** Code tested by typing `python3 -m flake8` to test all .py files
     
@@ -328,6 +328,11 @@ Specific to the home page.
 - Tested the `Cities` link in the footer to check that the /cities page is rendered
 - Tested the social media icons to check that the relevant social media home page is rendered and opens in another tab
 - Tested the `SHOP NOW` button to check that the /products page is rendered
+
+<div align="center">
+<img src="readmeimages/homescreen_desktop" width="600">
+<img src="readmeimages/homescreen_mobile" width="300">
+</div>
 
 ### All products page
 
