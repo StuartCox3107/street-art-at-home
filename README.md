@@ -331,7 +331,7 @@ Specific to the home page.
 
 <div align="center">
 <kbd>
-<img src="readmeimages/homescreen_desktop.png" width="400">
+<img valign="center" src="readmeimages/homescreen_desktop.png" width="400">
 </kbd>
 <img src="readmeimages/homescreen_mobile.png" width="200">
 </div>
