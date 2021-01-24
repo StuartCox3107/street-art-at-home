@@ -370,7 +370,7 @@ Specific to the home page.
 <img valign="middle" src="readmeimages/oneproductscreen_desktop.png" width="400">
 </kbd></td>
 <td><kbd>
-<img valign="middle" src="readmeimages/oneproductsscreen_mobile.png" width="200">
+<img valign="middle" src="readmeimages/oneproductscreen_mobile.png" width="200">
 </kbd></td>
 </tr>
 </table>
