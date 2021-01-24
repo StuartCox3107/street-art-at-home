@@ -329,12 +329,16 @@ Specific to the home page.
 - Tested the social media icons to check that the relevant social media home page is rendered and opens in another tab
 - Tested the `SHOP NOW` button to check that the /products page is rendered
 
-<div align="center">
-<kbd>
+<table align="center">
+<tr>
+<td><kbd>
 <img valign="middle" src="readmeimages/homescreen_desktop.png" width="400">
-</kbd>
-<img src="readmeimages/homescreen_mobile.png" width="200">
-</div>
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/homescreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### All products page
 
