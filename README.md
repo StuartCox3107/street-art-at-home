@@ -332,7 +332,7 @@ Specific to the home page.
 <table align="center">
 <tr>
 <td><kbd>
-<img valign="middle" src="readmeimages/homescreen_desktop.png" width="400" height="300">
+<img valign="middle" src="readmeimages/homescreen_desktop.png" width="400">
 </kbd></td>
 <td><kbd>
 <img valign="middle" src="readmeimages/homescreen_mobile.png" width="200">
@@ -346,12 +346,34 @@ Specific to the home page.
 - Tested to check that a user click on all individual images displays the relevant /products/<product_id> page
 - Tested the back to top icon brings the user back to the top of the page
 
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/allproductsscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/allproductsscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
+
 ### One product page
 
 - Tested to check that the relevant image, title, price and description are displayed
 - Tested to check that the `KEEP SHOPPING` button brings the user back to the /products page
 - Tested the increment buttons increment up and down correctly and only operate within the range 0-99 as desired
 - Tested the `ADD TO BAG` button to check that the product is added to the shopping bag when clicked and the relevant toast displays
+
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/oneproductscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/oneproductsscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### Sign Up/Register page
 
@@ -361,11 +383,33 @@ Specific to the home page.
 - Tested the `BACK TO LOGIN` button to check that the correct page is rendered
 - Tested the `SIGN UP` button successfully registers a new user if the form passes validation and the relevant toast is displayed advising the user of the successful registration and the home page is then rendered
 
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/signupscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/signupscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
+
 ### Sign in page
 
 - Tested to check that the `HOME` button renders the home page when clicked
 - Tested the user is signed in if a valid username and password are entered, a toast is displayed and the home page is rendered
 - Tested an error message is displayed if the user types in incorrect information for either the username and/or password
+
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/signinscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/signinscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### Profile page
 
@@ -374,6 +418,17 @@ Specific to the home page.
 - Tested to check that the `UPDATE INFORMATION` updates the profile when clicked and a toast is displayed advising the user of the successful change
 - Tested to check that when a user clicks on a particular order that the order information is displayed as well as a toast advising the user that this is a past order
 - Tested to check that `BACK TO PROFILE` button on the above rendered page renders the /profile page
+
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/profilescreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/profilescreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### Basket
 
@@ -387,6 +442,17 @@ Specific to the home page.
 - Tested the `Update` button saves the basket as the new amount when clicked
 - Tested the bin icon to check that all basket items of that product type are removed from the basket and the basket page shows remaining products or the `No items in basket` page
 
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/bagscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/bagscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
+
 ### Checkout
 
 - Tested to check that the correct order is rendered as a summary
@@ -397,15 +463,48 @@ Specific to the home page.
 - Tested the form validation on the required fields to check that this information is present when the `Complete Order` button is clicked
 - Tested the Stripe functionality works and when the valid test card number is used then the user is given an order summary and a toast showing their order has been made
 
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/checkoutscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/checkoutscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
+
 ### Blog
 
 - Tested to check that all images, posting person, posting date, title and summary are correctly displayed
-- Tested the back to top icon brings the user back to the top of the page 
+- Tested the back to top icon brings the user back to the top of the page
+
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/blogscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/blogscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### Cities
 
 - Tested to check that all images, title and summary are correctly displayed
-- Tested the back to top icon brings the user back to the top of the page 
+- Tested the back to top icon brings the user back to the top of the page
+
+<table align="center">
+<tr>
+<td><kbd>
+<img valign="middle" src="readmeimages/citiesscreen_desktop.png" width="400">
+</kbd></td>
+<td><kbd>
+<img valign="middle" src="readmeimages/citiesscreen_mobile.png" width="200">
+</kbd></td>
+</tr>
+</table>
 
 ### 404 page
 
