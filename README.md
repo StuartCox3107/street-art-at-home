@@ -330,8 +330,8 @@ Specific to the home page.
 - Tested the `SHOP NOW` button to check that the /products page is rendered
 
 <div align="center">
-<img src="readmeimages/homescreen_desktop" width="600">
-<img src="readmeimages/homescreen_mobile" width="300">
+<img src="readmeimages/homescreen_desktop.png" width="600">
+<img src="readmeimages/homescreen_mobile.png" width="300">
 </div>
 
 ### All products page
