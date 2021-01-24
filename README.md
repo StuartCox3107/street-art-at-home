@@ -332,7 +332,7 @@ Specific to the home page.
 <table align="center">
 <tr>
 <td><kbd>
-<img valign="middle" src="readmeimages/homescreen_desktop.png" width="400">
+<img valign="middle" src="readmeimages/homescreen_desktop.png" width="400" height="300">
 </kbd></td>
 <td><kbd>
 <img valign="middle" src="readmeimages/homescreen_mobile.png" width="200">
