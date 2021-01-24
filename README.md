@@ -340,7 +340,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### All products page
+#### All products page
 
 - Tested to check that all products in the database are displayed correctly (image, title and size)
 - Tested to check that a user click on all individual images displays the relevant /products/<product_id> page
@@ -357,7 +357,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### One product page
+#### One product page
 
 - Tested to check that the relevant image, title, price and description are displayed
 - Tested to check that the `KEEP SHOPPING` button brings the user back to the /products page
@@ -375,7 +375,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Sign Up/Register page
+#### Sign Up/Register page
 
 - Tested to check that the dropdown link to `Register` renders the correct /accounts/signup page
 - Tested to check that the `Sign in` link renders the correct /accounts/login page
@@ -394,7 +394,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Sign in page
+#### Sign in page
 
 - Tested to check that the `HOME` button renders the home page when clicked
 - Tested the user is signed in if a valid username and password are entered, a toast is displayed and the home page is rendered
@@ -411,7 +411,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Profile page
+#### Profile page
 
 - Tested to check that the relevant user information in stored and displayed
 - Tested to check that the correct user order history is displayed
@@ -430,7 +430,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Basket
+#### Basket
 
 - Tested to check that the correct view and information is rendered if no items are in the basket and a (tested and working) button is present to bring the user to the /products page
 - Tested to check that the correct items are displayed and the price and amount ordered is correct
@@ -453,7 +453,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Checkout
+#### Checkout
 
 - Tested to check that the correct order is rendered as a summary
 - Tested to check that if the user is not logged in, then they are advised that they are about to check out as a guest and given the (working) option of being able to create an account
@@ -474,7 +474,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Blog
+#### Blog
 
 - Tested to check that all images, posting person, posting date, title and summary are correctly displayed
 - Tested the back to top icon brings the user back to the top of the page
@@ -490,7 +490,7 @@ Specific to the home page.
 </tr>
 </table>
 
-### Cities
+#### Cities
 
 - Tested to check that all images, title and summary are correctly displayed
 - Tested the back to top icon brings the user back to the top of the page
@@ -506,11 +506,11 @@ Specific to the home page.
 </tr>
 </table>
 
-### 404 page
+#### 404 page
 
 - Tested to check that 404 error page is rendered on this error
 
-### 500 page
+#### 500 page
 
 - Tested to check that 500 error page is rendered on this error
 
