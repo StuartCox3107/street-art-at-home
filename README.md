@@ -285,7 +285,9 @@ As well as the user information, data is stored in three models;
 - [Further testing](#further)
 - [Screen-size testing](#screen)
 
-### Code
+### Code testing
+
+- **HTML:** tested wil [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input) by right clicking and then using `View page source` to see rendered page code. I am aware that there are outstanding issues with the HTML code validation but sue to time constraints I was unable to resolve all issues. 
 
 - **CSS:** style.css tested with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator), no errors remain
 
@@ -303,7 +305,7 @@ All issues have been corrected except for the below exceptions;
 
 <a name="manual"></a>
 
-### Manual Testing
+### Manual testing
 
 #### Home page
 
@@ -558,7 +560,7 @@ Tested against [User Stories](#userstories)
 
 <a name="screen"></a>
 
-### Screen size Testing
+### Screen size testing
 
 - Using Chrome dev tools tested all features on;
 
@@ -693,6 +695,8 @@ I had challenges in automating the upload of static and media files and took the
 ### Open issues
 
 - Styling of the Django admin page. The Django in-built styling of the admin page comes from the static files. As the static files are not automatically uploading to AWS the admin page is unstyled. Still 100% functional and this has not been corrected.
+
+- HTML code validation. I left this too late and there are still issues remaining. If I were to do this project again I would aim to use [Pypi.org](https://pypi.org/project/django-html-validator/) and validate as I went along instead of waiting until the very end.
 
 ### [:arrow_up:Top of page](#top)
 ---
